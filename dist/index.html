@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardano Treasury Sankey</title>
+    <script type="module" crossorigin src="/assets/index-C4zkYC69.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bpg_9irs.css">
+  </head>
+  <body>
+    <main id="app">
+      <section class="toolbar" aria-label="Chart controls">
+        <div>
+          <h1>Cardano Treasury Requests</h1>
+          <p id="summary"></p>
+        </div>
+        <div class="actions">
+          <div class="arrange-control" aria-label="Group proposals">
+            <span>Group By</span>
+            <label>
+              <input type="radio" name="arrange" value="budget" checked />
+              <span>Requested Amount</span>
+            </label>
+            <label>
+              <input type="radio" name="arrange" value="source" />
+              <span>Source</span>
+            </label>
+            <label>
+              <input type="radio" name="arrange" value="proposer" />
+              <span>Proposer</span>
+            </label>
+          </div>
+          <button id="export-svg" type="button">Export SVG</button>
+          <button id="export-png" type="button">Export PNG</button>
+        </div>
+      </section>
+      <section class="chart-shell">
+        <div id="visualization" class="visualization">
+          <div id="legend" class="legend" aria-label="Treasury request totals"></div>
+          <div id="chart"></div>
+        </div>
+        <div id="tooltip" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+  </body>
+</html>
