@@ -19,6 +19,7 @@ const SOURCE_COLORS: Record<string, string> = {
 const ROOT_COLOR = "#111827";
 const OVER_NCL_COLOR = "#eab308";
 const PRIORITY_STORAGE_KEY = "cardanoTreasuryVotingPriorities:v1";
+const MOBILE_QUERY = "(max-width: 800px)";
 
 type Proposal = {
   proposal_key?: string;
@@ -80,6 +81,7 @@ let currentLegendMetrics: LegendMetric[] = [];
 let arrangeMode: ArrangeMode = "budget";
 let activePage: PageName = "sankey";
 let priorityState: PriorityState = { order: [], votes: {} };
+let wasMobileLayout = window.matchMedia(MOBILE_QUERY).matches;
 const activeSources = new Set(Object.keys(SOURCE_COLORS));
 
 function requiredElement<T extends HTMLElement>(selector: string): T {
@@ -93,6 +95,7 @@ function requiredElement<T extends HTMLElement>(selector: string): T {
 const chartEl = requiredElement<HTMLDivElement>("#chart");
 const visualizationEl = requiredElement<HTMLDivElement>("#visualization");
 const legendEl = requiredElement<HTMLDivElement>("#legend");
+const mobileFlowListEl = requiredElement<HTMLDivElement>("#mobile-flow-list");
 const tooltipEl = requiredElement<HTMLDivElement>("#tooltip");
 const summaryEl = requiredElement<HTMLParagraphElement>("#summary");
 const exportSvgButton = requiredElement<HTMLButtonElement>("#export-svg");
@@ -112,6 +115,10 @@ const formatAda = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 
 function selectedSources(): Set<string> {
   return new Set(activeSources);
+}
+
+function isMobileLayout(): boolean {
+  return window.matchMedia(MOBILE_QUERY).matches;
 }
 
 function proposalKey(proposal: Proposal): string {
@@ -353,6 +360,73 @@ function renderLegend(payload: SankeyPayload, graphData: ReturnType<typeof build
   }
 }
 
+function renderMobileFlowList(graphData: ReturnType<typeof buildGraph>): void {
+  mobileFlowListEl.replaceChildren();
+
+  const proposalItems = graphData.nodes
+    .filter((node) => node.kind === "proposal" && node.proposal)
+    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+
+  if (!proposalItems.length) {
+    const empty = document.createElement("p");
+    empty.className = "mobile-empty";
+    empty.textContent = "No proposals match the selected sources.";
+    mobileFlowListEl.append(empty);
+    return;
+  }
+
+  const groups = arrangeMode === "budget"
+    ? [["", proposalItems] as const]
+    : d3.groups(proposalItems, (node) => node.groupLabel ?? "");
+
+  for (const [groupLabel, nodes] of groups) {
+    if (groupLabel) {
+      const heading = document.createElement("div");
+      heading.className = "mobile-flow-group";
+      const total = nodes[0]?.groupTotal ?? d3.sum(nodes, (node) => node.proposal?.requested_budget_ada ?? 0);
+      heading.textContent = `${truncateLabel(groupLabel)} - ${formatAda.format(total)} ADA`;
+      mobileFlowListEl.append(heading);
+    }
+
+    for (const node of nodes) {
+      const proposal = node.proposal;
+      if (!proposal) continue;
+
+      const card = document.createElement("article");
+      card.className = "mobile-flow-card";
+      card.style.borderLeftColor = SOURCE_COLORS[proposal.source] ?? "#64748b";
+
+      const source = document.createElement("span");
+      source.className = "mobile-source";
+      source.style.color = SOURCE_COLORS[proposal.source] ?? "#64748b";
+      source.textContent = proposal.source;
+
+      const title = document.createElement("h3");
+      title.textContent = proposal.title;
+
+      const meta = document.createElement("div");
+      meta.className = "mobile-card-meta";
+      meta.append(
+        labeledValue("Proposer", proposal.proposer_name || "Unknown proposer"),
+        labeledValue("Requested", `${formatAda.format(proposal.requested_budget_ada)} ADA`)
+      );
+
+      card.append(source, title, meta);
+      mobileFlowListEl.append(card);
+    }
+  }
+}
+
+function labeledValue(label: string, value: string): HTMLElement {
+  const item = document.createElement("span");
+  const labelEl = document.createElement("small");
+  labelEl.textContent = label;
+  const valueEl = document.createElement("strong");
+  valueEl.textContent = value;
+  item.append(labelEl, valueEl);
+  return item;
+}
+
 function tooltipForProposal(proposal: Proposal): string {
   return `<strong>${proposal.title}</strong>
     <span>Proposer: ${proposal.proposer_name || "Unknown proposer"}</span>
@@ -436,6 +510,7 @@ function render(payload: SankeyPayload): void {
 
   chartEl.replaceChildren();
   renderLegend(payload, graphData);
+  renderMobileFlowList(graphData);
 
   const proposalCount = Math.max(1, graphData.nodes.filter((node) => node.kind === "proposal").length);
   const groupCount = new Set(
@@ -697,6 +772,7 @@ function renderPriorityTable(payload: SankeyPayload): void {
   const proposals = votableProposals(payload);
   priorityTableEl.replaceChildren();
   renderVoteTotals(proposals);
+  const mobile = isMobileLayout();
 
   const table = document.createElement("table");
   table.className = "priority-table";
@@ -797,11 +873,12 @@ function renderPriorityTable(payload: SankeyPayload): void {
   orderedPriorityProposals(proposals).forEach((proposal, index) => {
     const key = proposalKey(proposal);
     const row = document.createElement("tr");
-    row.draggable = true;
+    row.draggable = !mobile;
     row.dataset.proposalKey = key;
     updateVoteRowClass(row, priorityState.votes[key] ?? "");
 
     row.addEventListener("dragstart", (event) => {
+      if (mobile) return;
       draggedKey = key;
       dropped = false;
       row.classList.add("dragging");
@@ -824,25 +901,51 @@ function renderPriorityTable(payload: SankeyPayload): void {
 
     const rankCell = document.createElement("td");
     rankCell.className = "priority-rank";
+    rankCell.dataset.label = "Rank";
     const handle = document.createElement("span");
     handle.className = "drag-handle";
     handle.textContent = "::";
     const rank = document.createElement("span");
     rank.textContent = String(index + 1);
-    rankCell.append(handle, rank);
+    const mobileControls = document.createElement("span");
+    mobileControls.className = "mobile-order-controls";
+    const upButton = document.createElement("button");
+    upButton.type = "button";
+    upButton.textContent = "Up";
+    upButton.disabled = index === 0;
+    upButton.addEventListener("click", () => {
+      movePriorityByOffset(key, -1);
+      savePriorityState();
+      renderPriorityTable(payload);
+    });
+    const downButton = document.createElement("button");
+    downButton.type = "button";
+    downButton.textContent = "Down";
+    downButton.disabled = index === proposals.length - 1;
+    downButton.addEventListener("click", () => {
+      movePriorityByOffset(key, 1);
+      savePriorityState();
+      renderPriorityTable(payload);
+    });
+    mobileControls.append(upButton, downButton);
+    rankCell.append(handle, rank, mobileControls);
 
     const titleCell = document.createElement("td");
     titleCell.className = "priority-title";
+    titleCell.dataset.label = "Title";
     titleCell.textContent = proposal.title;
 
     const proposerCell = document.createElement("td");
+    proposerCell.dataset.label = "Proposer";
     proposerCell.textContent = proposal.proposer_name || "Unknown proposer";
 
     const amountCell = document.createElement("td");
     amountCell.className = "amount-cell";
+    amountCell.dataset.label = "Amount";
     amountCell.textContent = `${formatAda.format(proposal.requested_budget_ada)} ADA`;
 
     const voteCell = document.createElement("td");
+    voteCell.dataset.label = "Vote";
     const voteSelect = document.createElement("select");
     voteSelect.setAttribute("aria-label", `Vote for ${proposal.title}`);
     for (const optionValue of ["", "Yes", "No", "Abstain"] satisfies VoteChoice[]) {
@@ -866,6 +969,15 @@ function renderPriorityTable(payload: SankeyPayload): void {
 
   table.append(thead, tbody);
   priorityTableEl.append(table);
+}
+
+function movePriorityByOffset(key: string, offset: -1 | 1): void {
+  const currentIndex = priorityState.order.indexOf(key);
+  const targetIndex = currentIndex + offset;
+  if (currentIndex < 0 || targetIndex < 0 || targetIndex >= priorityState.order.length) return;
+  const nextOrder = [...priorityState.order];
+  [nextOrder[currentIndex], nextOrder[targetIndex]] = [nextOrder[targetIndex], nextOrder[currentIndex]];
+  priorityState.order = nextOrder;
 }
 
 function setActivePage(page: PageName): void {
@@ -916,7 +1028,14 @@ async function boot(): Promise<void> {
   });
   exportSvgButton.addEventListener("click", () => void exportSvg());
   exportPngButton.addEventListener("click", () => void exportPng());
-  window.addEventListener("resize", () => render(payload));
+  window.addEventListener("resize", () => {
+    render(payload);
+    const isMobile = isMobileLayout();
+    if (isMobile !== wasMobileLayout) {
+      wasMobileLayout = isMobile;
+      renderPriorityTable(payload);
+    }
+  });
   setActivePage(activePage);
 }
 

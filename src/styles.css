@@ -149,6 +149,10 @@ button:hover {
   min-width: 960px;
 }
 
+.mobile-flow-list {
+  display: none;
+}
+
 .legend {
   background: #ffffff;
   border: 1px solid #dbe3ed;
@@ -425,6 +429,10 @@ body.priority-dragging .priority-table tbody tr {
   padding: 7px 8px;
 }
 
+.mobile-order-controls {
+  display: none;
+}
+
 #tooltip {
   background: rgba(15, 23, 42, 0.95);
   border-radius: 6px;
@@ -444,25 +452,286 @@ body.priority-dragging .priority-table tbody tr {
 }
 
 @media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .toolbar {
     align-items: flex-start;
     flex-direction: column;
+    gap: 14px;
+    padding: 14px;
+    position: static;
+  }
+
+  h1 {
+    font-size: 20px;
   }
 
   .actions {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: flex-start;
+    width: 100%;
+  }
+
+  .page-tabs {
+    width: 100%;
+  }
+
+  .page-tab {
+    flex: 1;
+  }
+
+  .arrange-control {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .arrange-control > span {
+    grid-column: 1 / -1;
+    padding: 4px 7px 2px;
+  }
+
+  .arrange-control label span {
+    text-align: center;
+    width: 100%;
+  }
+
+  button {
+    min-height: 40px;
+    width: 100%;
+  }
+
+  .chart-shell {
+    padding: 12px;
   }
 
   .priorities-header {
     align-items: flex-start;
     grid-template-columns: 1fr;
+    padding: 12px;
   }
 
-  .chart-shell {
-    overflow: auto;
+  .vote-totals {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .priority-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
 
   .visualization {
-    min-width: 960px;
+    min-width: 0;
+  }
+
+  .legend {
+    grid-template-columns: 1fr;
+  }
+
+  .legend-item {
+    border-right: 0;
+  }
+
+  .mobile-flow-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  .mobile-flow-group {
+    color: #475569;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 2px 0;
+    text-transform: uppercase;
+  }
+
+  .mobile-flow-card {
+    background: #ffffff;
+    border: 1px solid #dbe3ed;
+    border-left: 4px solid #64748b;
+    display: grid;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .mobile-flow-card h3 {
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .mobile-source {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .mobile-card-meta {
+    display: grid;
+    gap: 8px;
+  }
+
+  .mobile-card-meta span,
+  .priority-table td::before {
+    display: grid;
+    gap: 2px;
+  }
+
+  .mobile-card-meta small,
+  .priority-table td::before {
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .mobile-card-meta strong {
+    color: #111827;
+    font-size: 13px;
+  }
+
+  .mobile-empty {
+    background: #ffffff;
+    border: 1px solid #dbe3ed;
+    padding: 12px;
+  }
+
+  .visualization.exporting .mobile-flow-list {
+    display: none;
+  }
+
+  #chart {
+    max-width: 100%;
+    min-height: 520px;
+    min-width: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .priorities-shell {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .priority-table-wrap {
+    background: transparent;
+    border: 0;
+    overflow: visible;
+  }
+
+  .priority-table,
+  .priority-table thead,
+  .priority-table tbody,
+  .priority-table tr,
+  .priority-table th,
+  .priority-table td {
+    display: block;
+  }
+
+  .priority-table {
+    border-collapse: separate;
+    min-width: 0;
+  }
+
+  .priority-table thead {
+    display: none;
+  }
+
+  .priority-table tbody {
+    display: grid;
+    gap: 10px;
+  }
+
+  .priority-table tbody tr {
+    background: #ffffff;
+    border: 1px solid #dbe3ed;
+    cursor: default;
+    display: grid;
+    gap: 0;
+    padding: 10px 12px;
+  }
+
+  .priority-table tbody tr:hover {
+    background: #ffffff;
+  }
+
+  .priority-table tbody tr.vote-yes,
+  .priority-table tbody tr.vote-yes:hover {
+    background: #f0fdf4;
+  }
+
+  .priority-table tbody tr.vote-abstain,
+  .priority-table tbody tr.vote-abstain:hover {
+    background: #fefce8;
+  }
+
+  .priority-table tbody tr.vote-no,
+  .priority-table tbody tr.vote-no:hover {
+    background: #fef2f2;
+  }
+
+  .priority-table td {
+    border-bottom: 0;
+    display: grid;
+    font-size: 13px;
+    gap: 5px;
+    grid-template-columns: 86px 1fr;
+    padding: 7px 0;
+  }
+
+  .priority-table td::before {
+    content: attr(data-label);
+  }
+
+  .priority-rank {
+    align-items: center;
+    grid-template-columns: 86px 1fr;
+    width: auto;
+  }
+
+  .drag-handle {
+    display: none;
+  }
+
+  .mobile-order-controls {
+    display: inline-grid;
+    gap: 6px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: min(160px, 100%);
+  }
+
+  .mobile-order-controls button {
+    background: #ffffff;
+    border-color: #cbd5e1;
+    color: #111827;
+    min-height: 34px;
+    padding: 6px 8px;
+  }
+
+  .mobile-order-controls button:disabled {
+    color: #94a3b8;
+    cursor: not-allowed;
+  }
+
+  .priority-title {
+    min-width: 0;
+  }
+
+  .amount-cell {
+    text-align: left;
+  }
+
+  .priority-table select {
+    max-width: 100%;
+    width: 100%;
   }
 }
