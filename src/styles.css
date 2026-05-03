@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body {
   margin: 0;
 }
@@ -35,10 +39,35 @@ h1 {
   margin: 0 0 4px;
 }
 
+h2 {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 0 4px;
+}
+
 p {
   color: #475569;
   font-size: 14px;
   margin: 0;
+}
+
+.page-tabs {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.page-tab {
+  background: #f1f5f9;
+  border-color: #dbe3ed;
+  color: #475569;
+}
+
+.page-tab.active {
+  background: #111827;
+  border-color: #111827;
+  color: #ffffff;
 }
 
 .actions {
@@ -108,6 +137,10 @@ button:hover {
 
 .chart-shell {
   padding: 18px;
+}
+
+.page[hidden] {
+  display: none;
 }
 
 .visualization {
@@ -202,6 +235,196 @@ svg {
   text-transform: uppercase;
 }
 
+.priorities-shell {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.priorities-header {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dbe3ed;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(260px, 1fr) minmax(420px, 1.2fr) auto;
+  padding: 14px 16px;
+}
+
+.vote-totals {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+}
+
+.vote-total {
+  border: 1px solid #dbe3ed;
+  border-left-width: 4px;
+  display: grid;
+  gap: 3px;
+  padding: 9px 10px;
+}
+
+.vote-total span {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.vote-total strong {
+  color: #111827;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.vote-total.yes {
+  border-left-color: #16a34a;
+}
+
+.vote-total.abstain {
+  border-left-color: #eab308;
+}
+
+.vote-total.no {
+  border-left-color: #dc2626;
+}
+
+.priority-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.priority-table-wrap {
+  background: #ffffff;
+  border: 1px solid #dbe3ed;
+  overflow: auto;
+}
+
+.priorities-shell.exporting .priority-table-wrap {
+  overflow: visible;
+}
+
+.priority-table {
+  border-collapse: collapse;
+  min-width: 980px;
+  width: 100%;
+}
+
+.priority-table th,
+.priority-table td {
+  border-bottom: 1px solid #e5eaf0;
+  font-size: 13px;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.priority-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 800;
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  z-index: 1;
+}
+
+.priority-table tbody tr {
+  cursor: grab;
+  transition:
+    background 120ms ease,
+    box-shadow 120ms ease,
+    opacity 120ms ease;
+}
+
+.priority-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.priority-table tbody tr.vote-yes {
+  background: #f0fdf4;
+}
+
+.priority-table tbody tr.vote-yes:hover {
+  background: #dcfce7;
+}
+
+.priority-table tbody tr.vote-abstain {
+  background: #fefce8;
+}
+
+.priority-table tbody tr.vote-abstain:hover {
+  background: #fef9c3;
+}
+
+.priority-table tbody tr.vote-no {
+  background: #fef2f2;
+}
+
+.priority-table tbody tr.vote-no:hover {
+  background: #fee2e2;
+}
+
+.priority-table tbody tr.dragging {
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+  cursor: grabbing;
+  opacity: 0.42;
+  position: relative;
+  z-index: 2;
+}
+
+body.priority-dragging,
+body.priority-dragging .priority-table tbody tr {
+  cursor: grabbing;
+}
+
+.priority-rank {
+  color: #64748b;
+  width: 74px;
+}
+
+.drag-handle {
+  color: #94a3b8;
+  display: inline-block;
+  font-weight: 800;
+  margin-right: 10px;
+  transform: rotate(90deg);
+  transition: color 120ms ease;
+}
+
+.priority-table tbody tr:hover .drag-handle,
+.priority-table tbody tr.dragging .drag-handle {
+  color: #111827;
+}
+
+.priority-title {
+  color: #111827;
+  font-weight: 700;
+  min-width: 360px;
+}
+
+.amount-cell {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.priority-table select {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  color: #111827;
+  font: inherit;
+  min-width: 112px;
+  padding: 7px 8px;
+}
+
 #tooltip {
   background: rgba(15, 23, 42, 0.95);
   border-radius: 6px;
@@ -228,6 +451,11 @@ svg {
 
   .actions {
     justify-content: flex-start;
+  }
+
+  .priorities-header {
+    align-items: flex-start;
+    grid-template-columns: 1fr;
   }
 
   .chart-shell {

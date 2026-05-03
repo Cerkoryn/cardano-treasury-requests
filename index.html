@@ -10,10 +10,14 @@
       <section class="toolbar" aria-label="Chart controls">
         <div>
           <h1>Cardano Treasury Requests</h1>
+          <nav class="page-tabs" aria-label="Application pages">
+            <button class="page-tab active" type="button" data-page="sankey">Treasury Flow</button>
+            <button class="page-tab" type="button" data-page="priorities">Voting Priorities</button>
+          </nav>
           <p id="summary"></p>
         </div>
         <div class="actions">
-          <div class="arrange-control" aria-label="Group proposals">
+          <div id="group-by-control" class="arrange-control" aria-label="Group proposals">
             <span>Group By</span>
             <label>
               <input type="radio" name="arrange" value="budget" checked />
@@ -32,12 +36,30 @@
           <button id="export-png" type="button">Export PNG</button>
         </div>
       </section>
-      <section class="chart-shell">
-        <div id="visualization" class="visualization">
-          <div id="legend" class="legend" aria-label="Treasury request totals"></div>
-          <div id="chart"></div>
+      <section id="sankey-page" class="page active">
+        <div class="chart-shell">
+          <div id="visualization" class="visualization">
+            <div id="legend" class="legend" aria-label="Treasury request totals"></div>
+            <div id="chart"></div>
+          </div>
+          <div id="tooltip" role="status" aria-live="polite"></div>
         </div>
-        <div id="tooltip" role="status" aria-live="polite"></div>
+      </section>
+      <section id="priorities-page" class="page" hidden>
+        <div id="priorities-export" class="priorities-shell">
+          <div class="priorities-header">
+            <div>
+              <h2>Voting Priorities</h2>
+              <p>Drag rows into your preferred voting order. Choices are saved in this browser.</p>
+            </div>
+            <div id="vote-totals" class="vote-totals" aria-label="Vote totals"></div>
+            <div class="priority-actions">
+              <button id="reset-priority-order" type="button">Reset Order</button>
+              <button id="clear-priority-votes" type="button">Clear Votes</button>
+            </div>
+          </div>
+          <div id="priority-table" class="priority-table-wrap"></div>
+        </div>
       </section>
     </main>
     <script type="module" src="/src/main.ts"></script>

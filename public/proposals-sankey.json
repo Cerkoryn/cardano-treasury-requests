@@ -2,192 +2,224 @@
   "ncl_ada": 350000000,
   "proposals": [
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qx4njfhm",
       "title": "IO & Ensurable Systems: Cardano Maintenance Initiative",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 62134630
     },
     {
+      "proposal_key": "onchain:gov_action13qr78nhrhetywapvx2wpm63y9uxpc2dc45zsu9gkncasxqhuhltqqqfu32x",
       "title": "Cardano x Draper Dragon: Orion Fund",
       "proposer_name": "Draper Dragon",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 50000000
     },
     {
+      "proposal_key": "onchain:gov_action14u26vcn3wmcnhc5pqrt6494ypugr7c7f3e2ns60r32cntl6zjtxsqqgeu8p",
       "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028",
       "proposer_name": "Intersect",
       "source": "Live On-Chain",
       "requested_budget_ada": 39787316
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk",
       "title": "IO: Consensus Initiative",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 27714342
     },
     {
+      "proposal_key": "ekklesia:69e7a834d6a29288536b1200",
       "title": "Intersect: Governance coordination and technical stewardship for the Cardano ecosystem",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 25400000
     },
     {
+      "proposal_key": "ekklesia:69e21a177a2045bdd2281d1a",
       "title": "The Marketing Powered Demand Engine for Cardano",
       "proposer_name": "Serviceplan Group",
       "source": "Ekklesia",
       "requested_budget_ada": 20871418
     },
     {
+      "proposal_key": "ekklesia:69ebc7cdd73bae0eb2a9952d",
       "title": "Cardano Builder DAO",
       "proposer_name": "Cardano Builder DAO",
       "source": "Ekklesia",
       "requested_budget_ada": 20600000
     },
     {
+      "proposal_key": "onchain:gov_action1hkgl5l4fknsf7aktmcatkz6kfl7xpvn7rzh5vnxwexl0n3cc6zrsqt5459v",
       "title": "Cardano Summit 2026 and TOKEN2049 Singapore",
       "proposer_name": "Cardano Foundation, EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 14076539
     },
     {
+      "proposal_key": "ekklesia:69e8c0e2ae91c89d305701f5",
       "title": "A High-Performance Partner Chain Factory using Ouroboros Tachýs",
       "proposer_name": "Ensurable Systems Ltd",
       "source": "Ekklesia",
       "requested_budget_ada": 13150479
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qz6es0cp",
       "title": "IO: Cardano Upgrades",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 13103039
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3q2yd5rxu",
       "title": "IO: Cardano High Assurance Technical Collaboration",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 13078578
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qsuae57l",
       "title": "Pogun: Capital Without Compromise",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 12290000
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qvczhx6t",
       "title": "IO & VacuumLabs: Enhancing Plutus - Performance, Correctness, and Usability",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 11877575
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qghg4q43",
       "title": "IO & Midgard Labs: L2 Scalability Initiative",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 10425871
     },
     {
+      "proposal_key": "onchain:gov_action19uhuy5uame2s60yrh6n8cyds8ps5q7tkh05dqlzmpcfy429p9w4qq5ll3g0",
       "title": "Amaru Treasury Withdrawal 2026",
       "proposer_name": "Pragma",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 10142000
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qwt8k9fx",
       "title": "Blockfrost: Maintenance and Next Generation Indexing",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 7920000
     },
     {
+      "proposal_key": "ekklesia:69e90478d699758cde5d4a5e",
       "title": "Security Threat Assessment Guard (STAG): Continuous Security Assurance for the Cardano Ecosystem",
       "proposer_name": "Ensurable Systems Ltd",
       "source": "Ekklesia",
       "requested_budget_ada": 7890487
     },
     {
+      "proposal_key": "onchain:gov_action10dp9wzmgt2nqshyrghufff4sfhcxedhmzluly5k0azguatnsthwqqs84cjf",
       "title": "Revised Cardano Summit 2026 Singapore",
       "proposer_name": "Cardano Foundation",
       "source": "Live On-Chain",
       "requested_budget_ada": 7800000
     },
     {
+      "proposal_key": "onchain:gov_action17dfgtkeufcy945e3ssanqpmn09ft3gezhvepvvg7msmlmaz260dqqjtsmpe",
       "title": "Dingo: a Production-Grade Block Producer in Go by Blink Labs",
       "proposer_name": "Chris Gianelloni",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 6900000
     },
     {
+      "proposal_key": "ekklesia:69ea4790d73bae0eb2a99522",
       "title": "Paid Open Source Model - Continued",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 4601000
     },
     {
+      "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
       "title": "Indigo Innovation Proposal: V2030RS, Tokenized RWA, BTC-Fi & Privacy",
       "proposer_name": "Indigo Foundation",
       "source": "Ekklesia",
       "requested_budget_ada": 3965500
     },
     {
+      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
       "title": "IO: Developer Experience Initiative",
-      "proposer_name": "Input Output Global, Intersect",
+      "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 3601926
     },
     {
+      "proposal_key": "onchain:gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z",
       "title": "Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum' Sponsorship Proposal",
       "proposer_name": "EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 3303750
     },
     {
+      "proposal_key": "onchain:gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw",
       "title": "Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade",
       "proposer_name": "EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 1768167
     },
     {
+      "proposal_key": "ekklesia:69f0ed3a7822b26563397afa",
       "title": "Hub-Network Liquidity: A Protocol for Revenue-based Finance at Network Scale",
       "proposer_name": "Prisma",
       "source": "Ekklesia",
       "requested_budget_ada": 1524400
     },
     {
+      "proposal_key": "ekklesia:69f4457693fdcc8059d4cc18",
       "title": "Cardano Business Development Network: Accelerating Enterprise Adoption Through Coordinated BD Hubs",
       "proposer_name": "Yoram Ben Zvi",
       "source": "Ekklesia",
       "requested_budget_ada": 1519250
     },
     {
+      "proposal_key": "ekklesia:69e8b481b637aef81b4fadd7",
       "title": "Hardware Wallet Maintenance 2026",
       "proposer_name": "VacuumLabs",
       "source": "Ekklesia",
       "requested_budget_ada": 1310960
     },
     {
+      "proposal_key": "ekklesia:69e7a2e8afb99100720f2795",
       "title": "2027 Objectives, Research validation & Market Pilots - IntersectCPC",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 1240000
     },
     {
+      "proposal_key": "ekklesia:69f38e85985067f4ae957a5e",
       "title": "Intersect Technical Steering Committee Support",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 1193000
     },
     {
+      "proposal_key": "ekklesia:69ef7bedd699758cde5d4a66",
       "title": "Catalyze Africa: Building Scalable Projects from CATS 2026",
       "proposer_name": "Wada Global",
       "source": "Ekklesia",
       "requested_budget_ada": 989901
     },
     {
+      "proposal_key": "onchain:gov_action1uhzd06a26qavzflvrx3gvcz6rzxkl6su2ns8t3seef5e8dl6nlgsqcgtufg",
       "title": "Cardano Defi Liquidity Budget - Withdrawal 1",
       "proposer_name": "Elder Millenial",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 800000
     },
     {
+      "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
       "title": "Cardano Budget Committee: Budget Process Improvement and Treasury Transparency (2026–2027)",
       "proposer_name": "Intersect",
       "source": "Ekklesia",

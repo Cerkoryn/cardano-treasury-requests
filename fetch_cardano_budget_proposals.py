@@ -39,11 +39,13 @@ PROPOSER_NAME_NORMALIZATIONS = {
     "Intersect Technical Steering Committee": "Intersect",
     "IntersectCBC": "Intersect",
     "Intersect, EMURGO": "EMURGO",
+    "Input Output Global, Intersect": "Input Output Global",
 }
 
 
 @dataclass(frozen=True)
 class Proposal:
+    proposal_key: str
     title: str
     proposer_name: str
     requested_budget_ada: Decimal
@@ -118,7 +120,9 @@ def normalize_proposer_name(value: str) -> str:
 def parse_proposal(raw: dict[str, Any]) -> Proposal:
     metadata = raw.get("metaData") or {}
     proposer_details = metadata.get("proposerDetails") or {}
+    proposal_id = str(raw.get("_id") or raw.get("id") or "").strip()
     return Proposal(
+        proposal_key=f"ekklesia:{proposal_id}" if proposal_id else "",
         title=str(raw.get("title") or raw.get("name") or "Untitled Proposal").strip(),
         proposer_name=normalize_proposer_name(str(proposer_details.get("name") or "")),
         requested_budget_ada=as_decimal(metadata.get("totalBudget")),
@@ -195,7 +199,9 @@ def parse_on_chain_proposal(raw: dict[str, Any], source: str) -> Proposal:
         int(withdrawal.get("amount") or 0)
         for withdrawal in raw.get("withdrawal") or []
     )
+    proposal_id = str(raw.get("proposal_id") or raw.get("proposal_tx_hash") or "").strip()
     return Proposal(
+        proposal_key=f"onchain:{proposal_id}" if proposal_id else "",
         title=title,
         proposer_name=proposer_name,
         requested_budget_ada=Decimal(withdrawal_amount) / LOVELACE_PER_ADA,
@@ -345,7 +351,9 @@ def proposal_to_dict(proposal: Proposal) -> dict[str, str | int | float]:
         budget_value = int(budget)
     else:
         budget_value = float(budget)
+    fallback_key = f"{proposal.source}::{proposal.title}::{budget_value}"
     return {
+        "proposal_key": proposal.proposal_key or fallback_key,
         "title": proposal.title,
         "proposer_name": proposal.proposer_name,
         "source": proposal.source,
