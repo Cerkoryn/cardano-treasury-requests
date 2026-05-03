@@ -138,6 +138,10 @@ function defaultPriorityOrder(proposals: Proposal[]): string[] {
     .map(proposalKey);
 }
 
+function votableProposals(payload: SankeyPayload): Proposal[] {
+  return payload.proposals.filter((proposal) => proposal.source !== "Ratified On-Chain");
+}
+
 function savePriorityState(): void {
   localStorage.setItem(PRIORITY_STORAGE_KEY, JSON.stringify(priorityState));
 }
@@ -690,8 +694,9 @@ function updateVoteRowClass(row: HTMLTableRowElement, vote: VoteChoice): void {
 }
 
 function renderPriorityTable(payload: SankeyPayload): void {
+  const proposals = votableProposals(payload);
   priorityTableEl.replaceChildren();
-  renderVoteTotals(payload.proposals);
+  renderVoteTotals(proposals);
 
   const table = document.createElement("table");
   table.className = "priority-table";
@@ -789,7 +794,7 @@ function renderPriorityTable(payload: SankeyPayload): void {
     renderPriorityTable(payload);
   });
 
-  orderedPriorityProposals(payload.proposals).forEach((proposal, index) => {
+  orderedPriorityProposals(proposals).forEach((proposal, index) => {
     const key = proposalKey(proposal);
     const row = document.createElement("tr");
     row.draggable = true;
@@ -851,7 +856,7 @@ function renderPriorityTable(payload: SankeyPayload): void {
       priorityState.votes[key] = voteSelect.value as VoteChoice;
       savePriorityState();
       updateVoteRowClass(row, priorityState.votes[key]);
-      renderVoteTotals(payload.proposals);
+      renderVoteTotals(proposals);
     });
     voteCell.append(voteSelect);
 
@@ -879,7 +884,8 @@ async function boot(): Promise<void> {
   const response = await fetch("/proposals-sankey.json");
   if (!response.ok) throw new Error(`Unable to load proposals-sankey.json: ${response.status}`);
   const payload = (await response.json()) as SankeyPayload;
-  priorityState = loadPriorityState(payload.proposals);
+  const priorities = votableProposals(payload);
+  priorityState = loadPriorityState(priorities);
   savePriorityState();
   render(payload);
   renderPriorityTable(payload);
@@ -897,13 +903,13 @@ async function boot(): Promise<void> {
     });
   });
   resetPriorityOrderButton.addEventListener("click", () => {
-    priorityState.order = defaultPriorityOrder(payload.proposals);
+    priorityState.order = defaultPriorityOrder(priorities);
     savePriorityState();
     renderPriorityTable(payload);
   });
   clearPriorityVotesButton.addEventListener("click", () => {
     priorityState.votes = Object.fromEntries(
-      payload.proposals.map((proposal) => [proposalKey(proposal), ""])
+      priorities.map((proposal) => [proposalKey(proposal), ""])
     ) as Record<string, VoteChoice>;
     savePriorityState();
     renderPriorityTable(payload);
