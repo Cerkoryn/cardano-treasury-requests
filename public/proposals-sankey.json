@@ -107,6 +107,13 @@
       "requested_budget_ada": 10142000
     },
     {
+      "proposal_key": "ekklesia:69f293527822b26563397afd",
+      "title": "Amplify Cardano: Ecosystem Accelerator + Community-Led Marketing & Events Fund",
+      "proposer_name": "Rare Network (Rare Evo) & SCRIB3",
+      "source": "Ekklesia",
+      "requested_budget_ada": 8583334
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qwt8k9fx",
       "title": "Blockfrost: Maintenance and Next Generation Indexing",
       "proposer_name": "Input Output Global",
@@ -135,11 +142,32 @@
       "requested_budget_ada": 6900000
     },
     {
+      "proposal_key": "ekklesia:69f70e22ae91c89d30570211",
+      "title": "DeltaDeFi: Cardano's Flagship Exchange — Treasury Withdrawal",
+      "proposer_name": "DeltaDeFi",
+      "source": "Ekklesia",
+      "requested_budget_ada": 5150000
+    },
+    {
       "proposal_key": "ekklesia:69ea4790d73bae0eb2a99522",
       "title": "Paid Open Source Model - Continued",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 4601000
+    },
+    {
+      "proposal_key": "onchain:gov_action1ggr2uz7prwn5l84cdn2krwngfez0p7wluy4u3u3ez9pz5ls2whesqnsjly8",
+      "title": "Untitled On-Chain Proposal",
+      "proposer_name": "",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 4600000
+    },
+    {
+      "proposal_key": "onchain:gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c",
+      "title": "Untitled On-Chain Proposal",
+      "proposer_name": "",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 4600000
     },
     {
       "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
