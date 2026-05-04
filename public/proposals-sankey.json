@@ -163,6 +163,13 @@
       "requested_budget_ada": 3303750
     },
     {
+      "proposal_key": "onchain:gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d",
+      "title": "[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels",
+      "proposer_name": "",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 2400000
+    },
+    {
       "proposal_key": "onchain:gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw",
       "title": "Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade",
       "proposer_name": "EMURGO",
