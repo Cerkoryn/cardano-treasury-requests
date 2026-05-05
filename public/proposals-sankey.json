@@ -177,6 +177,13 @@
       "requested_budget_ada": 3965500
     },
     {
+      "proposal_key": "ekklesia:69f9d441f86410919eef6bd5",
+      "title": "Bringing Real-World Payments to Cardano with Wirex",
+      "proposer_name": "Wirex Limited",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3961538
+    },
+    {
       "proposal_key": "ekklesia:69f3529e1e63d3708e0dadb6",
       "title": "Mithril Protocol",
       "proposer_name": "Teragone Factory",
