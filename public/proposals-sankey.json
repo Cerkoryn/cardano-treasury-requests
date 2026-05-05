@@ -157,15 +157,15 @@
     },
     {
       "proposal_key": "onchain:gov_action1ggr2uz7prwn5l84cdn2krwngfez0p7wluy4u3u3ez9pz5ls2whesqnsjly8",
-      "title": "Untitled On-Chain Proposal",
-      "proposer_name": "",
+      "title": "Pebble & Ecosystem maintenance: TypeScript core of Cardano",
+      "proposer_name": "HLabs",
       "source": "Live On-Chain",
       "requested_budget_ada": 4600000
     },
     {
       "proposal_key": "onchain:gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c",
-      "title": "Untitled On-Chain Proposal",
-      "proposer_name": "",
+      "title": "The first node in the browser; a Cardano USP",
+      "proposer_name": "HLabs",
       "source": "Live On-Chain",
       "requested_budget_ada": 4600000
     },
@@ -175,6 +175,13 @@
       "proposer_name": "Indigo Foundation",
       "source": "Ekklesia",
       "requested_budget_ada": 3965500
+    },
+    {
+      "proposal_key": "ekklesia:69f3529e1e63d3708e0dadb6",
+      "title": "Mithril Protocol",
+      "proposer_name": "Teragone Factory",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3739559
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
@@ -252,6 +259,13 @@
       "proposer_name": "Elder Millenial",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 800000
+    },
+    {
+      "proposal_key": "ekklesia:69f8b983e8a58900f4a05a06",
+      "title": "MLabs: Open-Sourcing FeesaSwap as Live Fee Abstraction Infrastructure on Cardano",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 686660
     },
     {
       "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
