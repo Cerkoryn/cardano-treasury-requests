@@ -37,13 +37,6 @@
       "requested_budget_ada": 25400000
     },
     {
-      "proposal_key": "ekklesia:69e21a177a2045bdd2281d1a",
-      "title": "The Marketing Powered Demand Engine for Cardano",
-      "proposer_name": "Serviceplan Group",
-      "source": "Ekklesia",
-      "requested_budget_ada": 20871418
-    },
-    {
       "proposal_key": "ekklesia:69ebc7cdd73bae0eb2a9952d",
       "title": "Cardano Builder DAO",
       "proposer_name": "Cardano Builder DAO",
@@ -56,13 +49,6 @@
       "proposer_name": "Cardano Foundation, EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 14076539
-    },
-    {
-      "proposal_key": "ekklesia:69e8c0e2ae91c89d305701f5",
-      "title": "A High-Performance Partner Chain Factory using Ouroboros Tachýs",
-      "proposer_name": "Ensurable Systems Ltd",
-      "source": "Ekklesia",
-      "requested_budget_ada": 13150479
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qz6es0cp",
@@ -121,13 +107,6 @@
       "requested_budget_ada": 7920000
     },
     {
-      "proposal_key": "ekklesia:69e90478d699758cde5d4a5e",
-      "title": "Security Threat Assessment Guard (STAG): Continuous Security Assurance for the Cardano Ecosystem",
-      "proposer_name": "Ensurable Systems Ltd",
-      "source": "Ekklesia",
-      "requested_budget_ada": 7890487
-    },
-    {
       "proposal_key": "onchain:gov_action10dp9wzmgt2nqshyrghufff4sfhcxedhmzluly5k0azguatnsthwqqs84cjf",
       "title": "Revised Cardano Summit 2026 Singapore",
       "proposer_name": "Cardano Foundation",
@@ -143,7 +122,7 @@
     },
     {
       "proposal_key": "ekklesia:69f70e22ae91c89d30570211",
-      "title": "DeltaDeFi: Cardano's Flagship Exchange — Treasury Withdrawal",
+      "title": "DeltaDeFi: Cardano Flagship Exchange: ₳5,000,000 Treasury Loan with Perpetual Upside",
       "proposer_name": "DeltaDeFi",
       "source": "Ekklesia",
       "requested_budget_ada": 5150000
@@ -170,11 +149,11 @@
       "requested_budget_ada": 4600000
     },
     {
-      "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
-      "title": "Indigo Innovation Proposal: V2030RS, Tokenized RWA, BTC-Fi & Privacy",
-      "proposer_name": "Indigo Foundation",
+      "proposal_key": "ekklesia:69fa01a5e8a58900f4a05a09",
+      "title": "Cardano Enterprise Adoption: Production Ticketing Platform",
+      "proposer_name": "Anvil Development Agency, Inc.",
       "source": "Ekklesia",
-      "requested_budget_ada": 3965500
+      "requested_budget_ada": 4372865
     },
     {
       "proposal_key": "ekklesia:69f9d441f86410919eef6bd5",
@@ -219,6 +198,13 @@
       "requested_budget_ada": 1768167
     },
     {
+      "proposal_key": "ekklesia:69fac66e89371182537b3096",
+      "title": "Cardano Content Creator Consortium (C4): Ecosystem Video Content Production, Marketing & Education",
+      "proposer_name": "Cardano Content Creator Consortium (C4)",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1524400
+    },
+    {
       "proposal_key": "ekklesia:69f0ed3a7822b26563397afa",
       "title": "Hub-Network Liquidity: A Protocol for Revenue-based Finance at Network Scale",
       "proposer_name": "Prisma",
@@ -231,6 +217,13 @@
       "proposer_name": "Yoram Ben Zvi",
       "source": "Ekklesia",
       "requested_budget_ada": 1519250
+    },
+    {
+      "proposal_key": "ekklesia:69ecf1ea93fdcc8059d4cc0a",
+      "title": "Open Source RWA Tokenization Framework with Revenue Share Model",
+      "proposer_name": "Jose Velazquez",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1339000
     },
     {
       "proposal_key": "ekklesia:69e8b481b637aef81b4fadd7",
@@ -252,6 +245,13 @@
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 1193000
+    },
+    {
+      "proposal_key": "ekklesia:69fae404f9ebc26d057f51bf",
+      "title": "MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1144433
     },
     {
       "proposal_key": "ekklesia:69ef7bedd699758cde5d4a66",
@@ -280,6 +280,13 @@
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 600000
+    },
+    {
+      "proposal_key": "ekklesia:69fa68b4b05ff80adc7d5c41",
+      "title": "Civics Committee Governance Expert Led, Sustainable Education Program",
+      "proposer_name": "Intersect Civics Committee",
+      "source": "Ekklesia",
+      "requested_budget_ada": 442900
     }
   ]
 }
