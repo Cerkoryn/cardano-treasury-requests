@@ -37,6 +37,13 @@
       "requested_budget_ada": 27714342
     },
     {
+      "proposal_key": "ekklesia:69fc50fd89371182537b309e",
+      "title": "Innovation & Growth DAO",
+      "proposer_name": "Innovation & Growth DAO",
+      "source": "Ekklesia",
+      "requested_budget_ada": 14304640
+    },
+    {
       "proposal_key": "onchain:gov_action1hkgl5l4fknsf7aktmcatkz6kfl7xpvn7rzh5vnxwexl0n3cc6zrsqt5459v",
       "title": "Cardano Summit 2026 and TOKEN2049 Singapore",
       "proposer_name": "Cardano Foundation, EMURGO",
@@ -86,11 +93,11 @@
       "requested_budget_ada": 10142000
     },
     {
-      "proposal_key": "ekklesia:69f293527822b26563397afd",
-      "title": "Amplify Cardano: Ecosystem Accelerator + Community-Led Marketing & Events Fund",
-      "proposer_name": "Rare Network (Rare Evo) & SCRIB3",
+      "proposal_key": "ekklesia:69f8328b93fdcc8059d4cc20",
+      "title": "Cardano 2030: A Techstars Strategy for Global Ecosystem Adoption & Utility.",
+      "proposer_name": "Techstars",
       "source": "Ekklesia",
-      "requested_budget_ada": 8583334
+      "requested_budget_ada": 9373803
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qwt8k9fx",
@@ -121,13 +128,6 @@
       "requested_budget_ada": 6180000
     },
     {
-      "proposal_key": "ekklesia:69f70e22ae91c89d30570211",
-      "title": "DeltaDeFi: Cardano Flagship Exchange: ₳5,000,000 Treasury Loan with Perpetual Upside",
-      "proposer_name": "DeltaDeFi",
-      "source": "Ekklesia",
-      "requested_budget_ada": 5150000
-    },
-    {
       "proposal_key": "onchain:gov_action1ggr2uz7prwn5l84cdn2krwngfez0p7wluy4u3u3ez9pz5ls2whesqnsjly8",
       "title": "Pebble & Ecosystem maintenance: TypeScript core of Cardano",
       "proposer_name": "HLabs",
@@ -140,34 +140,6 @@
       "proposer_name": "HLabs",
       "source": "Live On-Chain",
       "requested_budget_ada": 4600000
-    },
-    {
-      "proposal_key": "ekklesia:69fa01a5e8a58900f4a05a09",
-      "title": "Cardano Enterprise Adoption: Production Ticketing Platform",
-      "proposer_name": "Anvil Development Agency, Inc.",
-      "source": "Ekklesia",
-      "requested_budget_ada": 4372865
-    },
-    {
-      "proposal_key": "ekklesia:69fb5faab05ff80adc7d5c46",
-      "title": "MLabs: Post-quantum signature verification support",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 4005516
-    },
-    {
-      "proposal_key": "ekklesia:69f9d441f86410919eef6bd5",
-      "title": "Bringing Real-World Payments to Cardano with Wirex",
-      "proposer_name": "Wirex Limited",
-      "source": "Ekklesia",
-      "requested_budget_ada": 3961538
-    },
-    {
-      "proposal_key": "ekklesia:69f3529e1e63d3708e0dadb6",
-      "title": "Mithril Protocol",
-      "proposer_name": "Teragone Factory",
-      "source": "Ekklesia",
-      "requested_budget_ada": 3739559
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
@@ -184,6 +156,27 @@
       "requested_budget_ada": 3303750
     },
     {
+      "proposal_key": "ekklesia:69fc8e0989371182537b30a3",
+      "title": "MLabs - Cardano Tx Library: JavaScript/TypeScript Interface, Koios Backend, Hard Fork Maintenance",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3169463
+    },
+    {
+      "proposal_key": "ekklesia:69fb674589371182537b309c",
+      "title": "Cardano DeFi Activation & Deployment Program",
+      "proposer_name": "Magenta Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2950000
+    },
+    {
+      "proposal_key": "ekklesia:69fc919e8a0de51b89857e19",
+      "title": "MLabs - TrueInventory: An accessible blockchain inventory for videogame developers",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2850783
+    },
+    {
       "proposal_key": "onchain:gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d",
       "title": "[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels",
       "proposer_name": "",
@@ -198,25 +191,18 @@
       "requested_budget_ada": 2193900
     },
     {
+      "proposal_key": "ekklesia:69fc8a71b05ff80adc7d5c4f",
+      "title": "Marlowe V2",
+      "proposer_name": "Simon Thompson",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1802500
+    },
+    {
       "proposal_key": "onchain:gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw",
       "title": "Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade",
       "proposer_name": "EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 1768167
-    },
-    {
-      "proposal_key": "ekklesia:69fac66e89371182537b3096",
-      "title": "Cardano Content Creator Consortium (C4): Ecosystem Video Content Production, Marketing & Education",
-      "proposer_name": "Cardano Content Creator Consortium (C4)",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1524400
-    },
-    {
-      "proposal_key": "ekklesia:69fb2be989371182537b3099",
-      "title": "Covenant 2: Cross-Language Support and Developer Experience",
-      "proposer_name": "MLabsLTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1461441
     },
     {
       "proposal_key": "ekklesia:69fa093992f043aa2df1a283",
@@ -226,53 +212,32 @@
       "requested_budget_ada": 1390508
     },
     {
-      "proposal_key": "ekklesia:69fb2e7485ddd26899aaf1fe",
-      "title": "MLabs: Better arrays for everyone",
-      "proposer_name": "MLabs LTD",
+      "proposal_key": "ekklesia:69fc8c2285ddd26899aaf20d",
+      "title": "Enhance Swarm Treasury System with Open Social Governance",
+      "proposer_name": "Voltaire Swarm OÜ",
       "source": "Ekklesia",
-      "requested_budget_ada": 1378470
+      "requested_budget_ada": 1350330
     },
     {
-      "proposal_key": "ekklesia:69fb450f8a0de51b89857e10",
-      "title": "MLabs: Encrypted Programmable Tokens with TFHE",
-      "proposer_name": "MLabs LTD",
+      "proposal_key": "ekklesia:69f08631d699758cde5d4a68",
+      "title": "Integration of Cardano into the Houdiniswap Aggregator",
+      "proposer_name": "Houdiniswap",
       "source": "Ekklesia",
-      "requested_budget_ada": 1343564
+      "requested_budget_ada": 1311190
     },
     {
-      "proposal_key": "ekklesia:69ecf1ea93fdcc8059d4cc0a",
-      "title": "Open Source RWA Tokenization Framework with Revenue Share Model",
-      "proposer_name": "Jose Velazquez",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1339000
-    },
-    {
-      "proposal_key": "ekklesia:69fb54818a0de51b89857e11",
-      "title": "zkFold Open Source Cardano Infrastructure 2026",
-      "proposer_name": "zkFold",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1256600
-    },
-    {
-      "proposal_key": "ekklesia:69f38e85985067f4ae957a5e",
-      "title": "Intersect Technical Steering Committee Support",
-      "proposer_name": "Intersect",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1193000
-    },
-    {
-      "proposal_key": "ekklesia:69fb669185ddd26899aaf203",
-      "title": "MLabs - Cardano.nix: 2026 Maintenance, Operator Tooling, and Dijkstra Readiness",
+      "proposal_key": "ekklesia:69fcab8de1ab5d003a0cab66",
+      "title": "MLabs - Grumplestiltskin 2: Pasta Curve Builtins and Kimchi PLookup Proof-of-Concept",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 1144433
     },
     {
-      "proposal_key": "ekklesia:69fae404f9ebc26d057f51bf",
-      "title": "MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply",
-      "proposer_name": "MLabs LTD",
+      "proposal_key": "ekklesia:69ef91a1985067f4ae957a56",
+      "title": "Nula: Cardano's token streaming protocol",
+      "proposer_name": "Five Binaries",
       "source": "Ekklesia",
-      "requested_budget_ada": 1144433
+      "requested_budget_ada": 952750
     },
     {
       "proposal_key": "onchain:gov_action1uhzd06a26qavzflvrx3gvcz6rzxkl6su2ns8t3seef5e8dl6nlgsqcgtufg",
@@ -282,18 +247,53 @@
       "requested_budget_ada": 800000
     },
     {
-      "proposal_key": "ekklesia:69f8b983e8a58900f4a05a06",
-      "title": "MLabs: Open-Sourcing FeesaSwap as Live Fee Abstraction Infrastructure on Cardano",
-      "proposer_name": "MLabs LTD",
+      "proposal_key": "ekklesia:69fc770b8a0de51b89857e17",
+      "title": "High-performance Rust Ogmios Client",
+      "proposer_name": "WingRiders Ltd.",
       "source": "Ekklesia",
-      "requested_budget_ada": 686660
+      "requested_budget_ada": 545694
     },
     {
-      "proposal_key": "ekklesia:69fa68b4b05ff80adc7d5c41",
-      "title": "Civics Committee Governance Expert Led, Sustainable Education Program",
-      "proposer_name": "Intersect Civics Committee",
+      "proposal_key": "ekklesia:69f9dabb92f043aa2df1a282",
+      "title": "Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
+      "proposer_name": "TxPipe",
       "source": "Ekklesia",
-      "requested_budget_ada": 442900
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "ekklesia:69f9d3db0a4abf2b3c1da737",
+      "title": "UTxO RPC by TxPipe: Maintaining Cardano’s Integration Standard, Year 2",
+      "proposer_name": "TxPipe",
+      "source": "Ekklesia",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "ekklesia:69f9ca0e4b815ecdc8d91a17",
+      "title": "Dolos by TxPipe: Maintaining Cardano's Lightweight Data Node, Year 2",
+      "proposer_name": "TxPipe",
+      "source": "Ekklesia",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "ekklesia:69f8c6dec9c351b28aa8d7b8",
+      "title": "Pallas by TxPipe: Maintaining Cardano's Core Rust Libraries, Year 2",
+      "proposer_name": "TxPipe",
+      "source": "Ekklesia",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "ekklesia:69f857aed73bae0eb2a99543",
+      "title": "BloxBean Java/JVM Toolchain for Cardano: 2026 Maintenance & New Initiatives",
+      "proposer_name": "BLOXBEAN",
+      "source": "Ekklesia",
+      "requested_budget_ada": 432600
+    },
+    {
+      "proposal_key": "ekklesia:69fbc8dd85ddd26899aaf207",
+      "title": "Cardano MCP by Lido Nation & 2 Lovelaces",
+      "proposer_name": "2 Lovelaces & Lido Nation",
+      "source": "Ekklesia",
+      "requested_budget_ada": 339900
     }
   ]
 }
