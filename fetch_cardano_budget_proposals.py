@@ -21,7 +21,7 @@ from urllib.request import Request, urlopen
 BASE_URL = "https://hydra-voting.intersectmbo.org"
 KOIOS_BASE_URL = "https://api.koios.rest/api/v1"
 VOTE_SLUG = "cardano-budget-2026"
-PAGES = (1, 2)
+EKKLESIA_PAGE_LIMIT = 50
 LOVELACE_PER_ADA = Decimal("1000000")
 NCL_ADA = Decimal("350000000")
 NCL_TREASURY_WITHDRAWAL_START_EPOCH = 613
@@ -130,26 +130,46 @@ def parse_proposal(raw: dict[str, Any]) -> Proposal:
     )
 
 
-def get_proposals(vote_id: str, pages: tuple[int, ...]) -> ProposalResult:
+def get_proposals(vote_id: str) -> ProposalResult:
     proposals: list[Proposal] = []
     api_total: int | None = None
+    page = 1
 
-    for page in pages:
+    while True:
         payload = fetch_json(
             "/api/v0/proposals",
             {
                 "vote": vote_id,
                 "page": page,
-                "limit": 10,
+                "limit": EKKLESIA_PAGE_LIMIT,
                 "sort": "submittedAt",
                 "direction": "desc",
                 "status": "live",
             },
         )
         proposals.extend(parse_proposal(item) for item in payload.get("data", []))
-        page_total = (payload.get("meta") or {}).get("total")
+        meta = payload.get("meta") or {}
+        page_total = meta.get("total")
         if isinstance(page_total, int):
             api_total = page_total
+        total_pages = meta.get("totalPages")
+        has_next_page = meta.get("hasNextPage")
+
+        if isinstance(has_next_page, bool):
+            if not has_next_page:
+                break
+        elif isinstance(total_pages, int):
+            if page >= total_pages:
+                break
+        elif not payload.get("data"):
+            break
+
+        page += 1
+
+    if api_total is not None and len(proposals) != api_total:
+        raise RuntimeError(
+            f"Fetched {len(proposals)} Ekklesia proposals, but the API reports {api_total}."
+        )
 
     return ProposalResult(
         proposals=sorted(proposals, key=lambda item: item.requested_budget_ada, reverse=True),
@@ -377,7 +397,7 @@ def main() -> int:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
     parser = argparse.ArgumentParser(
-        description="Fetch Cardano Budget 2026 proposal pages 1 and 2 and sort by requested ADA budget."
+        description="Fetch Cardano Budget 2026 proposals and sort by requested ADA budget."
     )
     parser.add_argument(
         "--format",
@@ -392,7 +412,7 @@ def main() -> int:
     args = parser.parse_args()
 
     vote_id = get_vote_id(VOTE_SLUG)
-    result = get_proposals(vote_id, PAGES)
+    result = get_proposals(vote_id)
     live_on_chain_proposals, ratified_on_chain_proposals = get_on_chain_proposals()
     proposals = sorted(
         [*result.proposals, *live_on_chain_proposals, *ratified_on_chain_proposals],
@@ -416,12 +436,6 @@ def main() -> int:
         print_markdown_table(proposals)
     else:
         print_aligned_table(proposals)
-
-    if result.api_total is not None and len(result.proposals) != result.api_total:
-        print(
-            f"Warning: fetched {len(result.proposals)} Ekklesia proposals, but the API reports {result.api_total}.",
-            file=sys.stderr,
-        )
 
     return 0
 
