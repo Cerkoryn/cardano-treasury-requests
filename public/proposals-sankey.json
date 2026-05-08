@@ -2,6 +2,13 @@
   "ncl_ada": 350000000,
   "proposals": [
     {
+      "proposal_key": "ekklesia:69fd95dfb05ff80adc7d5c5c",
+      "title": "Fund €100M of Paris Triangle d'Or Real Estate Tokenized with Foncière Renaissance (1.7Bn€ AUM)",
+      "proposer_name": "BRIDGE FUND",
+      "source": "Ekklesia",
+      "requested_budget_ada": 65405000
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qx4njfhm",
       "title": "IO & Ensurable Systems: Cardano Maintenance Initiative",
       "proposer_name": "Input Output Global",
@@ -30,6 +37,13 @@
       "requested_budget_ada": 32916000
     },
     {
+      "proposal_key": "ekklesia:69fdbabbe1ab5d003a0cab77",
+      "title": "Project Janus: A Roadmap to Decentralized Bridge Authorization and Generalized Cross-Chain Messaging",
+      "proposer_name": "ChainPort (by DcentraLab)",
+      "source": "Ekklesia",
+      "requested_budget_ada": 30570400
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk",
       "title": "IO: Consensus Initiative",
       "proposer_name": "Input Output Global",
@@ -49,6 +63,13 @@
       "proposer_name": "Serviceplan Group",
       "source": "Ekklesia",
       "requested_budget_ada": 20871418
+    },
+    {
+      "proposal_key": "ekklesia:69fce80ae1ab5d003a0cab6c",
+      "title": "Wormhole Cross-Chain Infrastructure for Cardano: Institutional RWAs, Native Multichain Stablecoins",
+      "proposer_name": "Wormhole Foundation",
+      "source": "Ekklesia",
+      "requested_budget_ada": 20600000
     },
     {
       "proposal_key": "ekklesia:69ebc7cdd73bae0eb2a9952d",
@@ -233,11 +254,25 @@
       "requested_budget_ada": 3739559
     },
     {
+      "proposal_key": "ekklesia:69fd0b20b05ff80adc7d5c55",
+      "title": "Eryx: Zero-Knowledge Capabilities",
+      "proposer_name": "Eryx",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3661033
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
       "title": "IO: Developer Experience Initiative",
       "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 3601926
+    },
+    {
+      "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
+      "title": "Clear signing of Cardano Top 5 dApps & Ledger Button integration",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3460800
     },
     {
       "proposal_key": "onchain:gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z",
@@ -254,6 +289,13 @@
       "requested_budget_ada": 3169463
     },
     {
+      "proposal_key": "ekklesia:69fd1b97e1ab5d003a0cab6f",
+      "title": "GOV.EXE by TxPipe & gf ConsultingGroup: Traceability for Public Projects, Pilot Program in Argentina",
+      "proposer_name": "TxPipe",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3006828
+    },
+    {
       "proposal_key": "ekklesia:69fb674589371182537b309c",
       "title": "Cardano DeFi Activation & Deployment Program",
       "proposer_name": "Magenta Labs",
@@ -268,6 +310,13 @@
       "requested_budget_ada": 2850783
     },
     {
+      "proposal_key": "ekklesia:69fda8b1e1ab5d003a0cab75",
+      "title": "Cardano DeFi & OpenFi US App-Layer Demand Activation Program",
+      "proposer_name": "Magenta Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2500000
+    },
+    {
       "proposal_key": "onchain:gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d",
       "title": "[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels",
       "proposer_name": "",
@@ -275,11 +324,39 @@
       "requested_budget_ada": 2400000
     },
     {
+      "proposal_key": "ekklesia:69fdb7108a0de51b89857e22",
+      "title": "Governance Coalition: Governance Prototype and RFP Program",
+      "proposer_name": "Voltaire Swarm",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2321620
+    },
+    {
       "proposal_key": "ekklesia:69fb759cb05ff80adc7d5c47",
       "title": "Libertum: Institution-Grade Participation Infrastructure for Cardano Real-World Assets",
       "proposer_name": "Libertum",
       "source": "Ekklesia",
       "requested_budget_ada": 2193900
+    },
+    {
+      "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
+      "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
+      "proposer_name": "Se7en Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2142400
+    },
+    {
+      "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
+      "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2060000
+    },
+    {
+      "proposal_key": "ekklesia:69fd539b85ddd26899aaf21c",
+      "title": "Autonomous AI Finance on Cardano with ClawBank",
+      "proposer_name": "Justice Conder",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1874600
     },
     {
       "proposal_key": "ekklesia:69fc8a71b05ff80adc7d5c4f",
@@ -294,6 +371,13 @@
       "proposer_name": "EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 1768167
+    },
+    {
+      "proposal_key": "ekklesia:69fc5a8785ddd26899aaf208",
+      "title": "Tx3 by TxPipe: Open API Layer for Cardano's dApp Protocols",
+      "proposer_name": "TxPipe",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1684050
     },
     {
       "proposal_key": "ekklesia:69fac66e89371182537b3096",
@@ -322,6 +406,13 @@
       "proposer_name": "MLabsLTD",
       "source": "Ekklesia",
       "requested_budget_ada": 1461441
+    },
+    {
+      "proposal_key": "ekklesia:69fd7ecef9ebc26d057f51da",
+      "title": "Evolution SDK 2026 - Hardening to v1.0, Modern DevEx, and the Defi Economy",
+      "proposer_name": "No.Witness Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1442000
     },
     {
       "proposal_key": "ekklesia:69fa093992f043aa2df1a283",
@@ -429,6 +520,13 @@
       "requested_budget_ada": 952750
     },
     {
+      "proposal_key": "ekklesia:69fdbd6381aade1f18481c2e",
+      "title": "Cardano Enterprise Activation Sandbox",
+      "proposer_name": "STORM Partners",
+      "source": "Ekklesia",
+      "requested_budget_ada": 929699
+    },
+    {
       "proposal_key": "onchain:gov_action1uhzd06a26qavzflvrx3gvcz6rzxkl6su2ns8t3seef5e8dl6nlgsqcgtufg",
       "title": "Cardano Defi Liquidity Budget - Withdrawal 1",
       "proposer_name": "Elder Millenial",
@@ -441,6 +539,20 @@
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 686660
+    },
+    {
+      "proposal_key": "ekklesia:69fc12c1f9ebc26d057f51c8",
+      "title": "Infrastructure for Quality Certification and Traceability in the Floriculture Industry",
+      "proposer_name": "David Tacuri",
+      "source": "Ekklesia",
+      "requested_budget_ada": 653947
+    },
+    {
+      "proposal_key": "ekklesia:69fd84b3b05ff80adc7d5c58",
+      "title": "Formal Verification in Lean 4 and Blaster — Cardano Auditor Training Program 2026",
+      "proposer_name": "No Witness Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 618000
     },
     {
       "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
@@ -504,6 +616,13 @@
       "proposer_name": "2 Lovelaces & Lido Nation",
       "source": "Ekklesia",
       "requested_budget_ada": 339900
+    },
+    {
+      "proposal_key": "ekklesia:69fd6b34f9ebc26d057f51d8",
+      "title": "Full Integration of CIP-113 with Clear Signing across Ledger Products",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 92700
     }
   ]
 }
