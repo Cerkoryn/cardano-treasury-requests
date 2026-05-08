@@ -29,7 +29,7 @@ LAST_APPROVED_NCL_ACTION_ID = "gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggacz
 LAST_APPROVED_NCL_TX_HASH = "dc4c679c8cf1cec49817d4d2c1c96cd802ec8a047a11dc0b0bb125b5af0a76cd"
 ON_CHAIN_PROPOSER_OVERRIDES = {
     "Cardano x Draper Dragon: Orion Fund": "Draper Dragon",
-    "Amaru Treasury Withdrawal 2026": "Pragma",
+    "Amaru Treasury Withdrawal 2026": "Amaru",
     "Cardano Defi Liquidity Budget - Withdrawal 1": "Elder Millenial",
 }
 PROPOSER_NAME_NORMALIZATIONS = {
