@@ -3,7 +3,7 @@
   "proposals": [
     {
       "proposal_key": "ekklesia:69fd95dfb05ff80adc7d5c5c",
-      "title": "Fund €100M of Paris Triangle d'Or Real Estate Tokenized with Foncière Renaissance (1.7Bn€ AUM)",
+      "title": "Diversify Cardano treasury into prime, yield-bearing real-estate",
       "proposer_name": "BRIDGE FUND",
       "source": "Ekklesia",
       "requested_budget_ada": 65405000
@@ -128,6 +128,13 @@
       "requested_budget_ada": 11877575
     },
     {
+      "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
+      "title": "Cardano Global Orderbook DAO: Funding DeFi Kernel Smart Contracts",
+      "proposer_name": "Cardano Global Orderbook DAO",
+      "source": "Ekklesia",
+      "requested_budget_ada": 10506000
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qghg4q43",
       "title": "IO & Midgard Labs: L2 Scalability Initiative",
       "proposer_name": "Input Output Global",
@@ -182,6 +189,13 @@
       "proposer_name": "Chris Gianelloni",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 6900000
+    },
+    {
+      "proposal_key": "ekklesia:69fdc4a5b05ff80adc7d5c62",
+      "title": "Cardano Activation Program (CAP)",
+      "proposer_name": "NMA Venture Capital GmbH",
+      "source": "Ekklesia",
+      "requested_budget_ada": 6200600
     },
     {
       "proposal_key": "ekklesia:69fb466181aade1f18481c1e",
