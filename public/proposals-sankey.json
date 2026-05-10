@@ -86,13 +86,6 @@
       "requested_budget_ada": 14304640
     },
     {
-      "proposal_key": "onchain:gov_action1hkgl5l4fknsf7aktmcatkz6kfl7xpvn7rzh5vnxwexl0n3cc6zrsqt5459v",
-      "title": "Cardano Summit 2026 and TOKEN2049 Singapore",
-      "proposer_name": "Cardano Foundation, EMURGO",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 14076539
-    },
-    {
       "proposal_key": "ekklesia:69e8c0e2ae91c89d305701f5",
       "title": "A High-Performance Partner Chain Factory using Ouroboros Tachýs",
       "proposer_name": "Ensurable Systems Ltd",
@@ -126,13 +119,6 @@
       "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 11877575
-    },
-    {
-      "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
-      "title": "Cardano Global Orderbook DAO: Funding DeFi Kernel Smart Contracts",
-      "proposer_name": "Cardano Global Orderbook DAO",
-      "source": "Ekklesia",
-      "requested_budget_ada": 10506000
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qghg4q43",
@@ -287,6 +273,13 @@
       "proposer_name": "Ledger Technologies SAS",
       "source": "Ekklesia",
       "requested_budget_ada": 3460800
+    },
+    {
+      "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
+      "title": "Dano Finance: DeFi Kernel, American Options, and Synthetic Assets on Cardano",
+      "proposer_name": "Dano Finance",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3399000
     },
     {
       "proposal_key": "onchain:gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z",
@@ -458,8 +451,8 @@
     },
     {
       "proposal_key": "ekklesia:69ecf1ea93fdcc8059d4cc0a",
-      "title": "Open Source RWA Tokenization Framework with Revenue Share Model",
-      "proposer_name": "Jose Velazquez",
+      "title": "Open Sourced RWA Tokenization Framework with Revenue Share Model",
+      "proposer_name": "Vierci Development",
       "source": "Ekklesia",
       "requested_budget_ada": 1339000
     },
