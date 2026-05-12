@@ -114,6 +114,13 @@
       "requested_budget_ada": 12290000
     },
     {
+      "proposal_key": "onchain:gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv",
+      "title": "Cardano dOSPO and OMF Program",
+      "proposer_name": "Christian Taylor, open source cowboy",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 12000000
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qvczhx6t",
       "title": "IO & VacuumLabs: Enhancing Plutus - Performance, Correctness, and Usability",
       "proposer_name": "Input Output Global",
