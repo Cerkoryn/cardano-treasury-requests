@@ -283,7 +283,7 @@
     },
     {
       "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
-      "title": "Dano Finance: DeFi Kernel, American Options, and Synthetic Assets on Cardano",
+      "title": "Dano Finance: DeFi Kernel, American Options, and Orderbook SDK",
       "proposer_name": "Dano Finance",
       "source": "Ekklesia",
       "requested_budget_ada": 3399000
@@ -324,6 +324,13 @@
       "requested_budget_ada": 2850783
     },
     {
+      "proposal_key": "ekklesia:69fdb7108a0de51b89857e22",
+      "title": "Governance Coalition: Governance Prototype and RFP Program",
+      "proposer_name": "Voltaire Swarm",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2664095
+    },
+    {
       "proposal_key": "ekklesia:69fda8b1e1ab5d003a0cab75",
       "title": "Cardano DeFi & OpenFi US App-Layer Demand Activation Program",
       "proposer_name": "Magenta Labs",
@@ -336,13 +343,6 @@
       "proposer_name": "",
       "source": "Live On-Chain",
       "requested_budget_ada": 2400000
-    },
-    {
-      "proposal_key": "ekklesia:69fdb7108a0de51b89857e22",
-      "title": "Governance Coalition: Governance Prototype and RFP Program",
-      "proposer_name": "Voltaire Swarm",
-      "source": "Ekklesia",
-      "requested_budget_ada": 2321620
     },
     {
       "proposal_key": "ekklesia:69fb759cb05ff80adc7d5c47",
