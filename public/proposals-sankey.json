@@ -304,14 +304,14 @@
     },
     {
       "proposal_key": "ekklesia:69fd1b97e1ab5d003a0cab6f",
-      "title": "GOV.EXE by TxPipe & gf ConsultingGroup: Traceability for Public Projects, Pilot Program in Argentina",
+      "title": "GOV.EXE by TxPipe & gf Consulting Group: Public Project Execution Integrity, Pilot in Argentina",
       "proposer_name": "TxPipe",
       "source": "Ekklesia",
       "requested_budget_ada": 3006828
     },
     {
       "proposal_key": "ekklesia:69fb674589371182537b309c",
-      "title": "Cardano DeFi Activation & Deployment Program",
+      "title": "Cardano DeFi Deployment Execution Program",
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2950000
@@ -423,10 +423,10 @@
     },
     {
       "proposal_key": "ekklesia:69fd7ecef9ebc26d057f51da",
-      "title": "Evolution SDK 2026 - Hardening to v1.0, Modern DevEx, and the Defi Economy",
+      "title": "Evolution SDK 2026. Hardening to v1.0, Modern DevEx, and the Agent Economy",
       "proposer_name": "No.Witness Labs",
       "source": "Ekklesia",
-      "requested_budget_ada": 1442000
+      "requested_budget_ada": 1441996
     },
     {
       "proposal_key": "ekklesia:69fa093992f043aa2df1a283",
@@ -459,7 +459,7 @@
     {
       "proposal_key": "ekklesia:69ecf1ea93fdcc8059d4cc0a",
       "title": "Open Sourced RWA Tokenization Framework with Revenue Share Model",
-      "proposer_name": "Vierci Development",
+      "proposer_name": "Jose Velazquez",
       "source": "Ekklesia",
       "requested_budget_ada": 1339000
     },
@@ -562,13 +562,6 @@
       "requested_budget_ada": 653947
     },
     {
-      "proposal_key": "ekklesia:69fd84b3b05ff80adc7d5c58",
-      "title": "Formal Verification in Lean 4 and Blaster — Cardano Auditor Training Program 2026",
-      "proposer_name": "No Witness Labs",
-      "source": "Ekklesia",
-      "requested_budget_ada": 618000
-    },
-    {
       "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
       "title": "Cardano Budget Committee: Budget Process Improvement and Treasury Transparency (2026–2027)",
       "proposer_name": "Intersect",
@@ -623,6 +616,13 @@
       "proposer_name": "BLOXBEAN",
       "source": "Ekklesia",
       "requested_budget_ada": 432600
+    },
+    {
+      "proposal_key": "ekklesia:69fd84b3b05ff80adc7d5c58",
+      "title": "Formal Verification in Lean 4 and Blaster — Cardano Auditor Training Program 2026",
+      "proposer_name": "No.Witness Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 412000
     },
     {
       "proposal_key": "ekklesia:69fbc8dd85ddd26899aaf207",
