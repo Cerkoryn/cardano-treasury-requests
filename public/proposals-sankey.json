@@ -156,6 +156,13 @@
       "requested_budget_ada": 8583334
     },
     {
+      "proposal_key": "onchain:gov_action1uzgqlh049u0j7epel29r425vyf9ttxmqwngw9kemyly0q6cwt5esqpwp09a",
+      "title": "Scalus: Cardano’s Application Platform for Building, Launching, and Scaling",
+      "proposer_name": "Lantr Engineering",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 8503000
+    },
+    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qwt8k9fx",
       "title": "Blockfrost: Maintenance and Next Generation Indexing",
       "proposer_name": "Input Output Global",
@@ -352,13 +359,6 @@
       "requested_budget_ada": 2193900
     },
     {
-      "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
-      "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
-      "proposer_name": "Se7en Labs",
-      "source": "Ekklesia",
-      "requested_budget_ada": 2142400
-    },
-    {
       "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
       "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
       "proposer_name": "Ledger Technologies SAS",
@@ -518,6 +518,13 @@
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 1144433
+    },
+    {
+      "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
+      "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
+      "proposer_name": "Se7en Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1112400
     },
     {
       "proposal_key": "ekklesia:69ef7bedd699758cde5d4a66",
