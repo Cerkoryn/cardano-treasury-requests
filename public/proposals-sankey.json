@@ -268,18 +268,18 @@
       "requested_budget_ada": 3739559
     },
     {
-      "proposal_key": "ekklesia:69fd0b20b05ff80adc7d5c55",
-      "title": "Eryx: Zero-Knowledge Capabilities",
-      "proposer_name": "Eryx",
-      "source": "Ekklesia",
-      "requested_budget_ada": 3661033
-    },
-    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
       "title": "IO: Developer Experience Initiative",
       "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 3601926
+    },
+    {
+      "proposal_key": "ekklesia:69fd0b20b05ff80adc7d5c55",
+      "title": "Eryx: Zero-Knowledge Capabilities",
+      "proposer_name": "Eryx",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3489366
     },
     {
       "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
@@ -318,7 +318,7 @@
     },
     {
       "proposal_key": "ekklesia:69fb674589371182537b309c",
-      "title": "Cardano DeFi Deployment Execution Program",
+      "title": "DeFi Rails & Deployment Program",
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2950000
@@ -339,7 +339,7 @@
     },
     {
       "proposal_key": "ekklesia:69fda8b1e1ab5d003a0cab75",
-      "title": "Cardano DeFi & OpenFi US App-Layer Demand Activation Program",
+      "title": "DeFi US App-Layer and Capital Execution Program",
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2500000
@@ -392,6 +392,13 @@
       "proposer_name": "TxPipe",
       "source": "Ekklesia",
       "requested_budget_ada": 1684050
+    },
+    {
+      "proposal_key": "onchain:gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z",
+      "title": "Eternl: Path to Sustainability (2026-2027)",
+      "proposer_name": "Eternl",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 1680000
     },
     {
       "proposal_key": "ekklesia:69fac66e89371182537b3096",
@@ -499,6 +506,13 @@
       "requested_budget_ada": 1193000
     },
     {
+      "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
+      "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
+      "proposer_name": "Se7en Labs",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1153600
+    },
+    {
       "proposal_key": "ekklesia:69fcab8de1ab5d003a0cab66",
       "title": "MLabs - Grumplestiltskin 2: Pasta Curve Builtins and Kimchi PLookup Proof-of-Concept",
       "proposer_name": "MLabs LTD",
@@ -518,13 +532,6 @@
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 1144433
-    },
-    {
-      "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
-      "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
-      "proposer_name": "Se7en Labs",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1112400
     },
     {
       "proposal_key": "ekklesia:69ef7bedd699758cde5d4a66",
