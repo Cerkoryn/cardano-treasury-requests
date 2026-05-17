@@ -37,13 +37,6 @@
       "requested_budget_ada": 32916000
     },
     {
-      "proposal_key": "ekklesia:69fdbabbe1ab5d003a0cab77",
-      "title": "Project Janus: A Roadmap to Decentralized Bridge Authorization and Generalized Cross-Chain Messaging",
-      "proposer_name": "ChainPort (by DcentraLab)",
-      "source": "Ekklesia",
-      "requested_budget_ada": 30570400
-    },
-    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk",
       "title": "IO: Consensus Initiative",
       "proposer_name": "Input Output Global",
@@ -77,6 +70,13 @@
       "proposer_name": "Cardano Builder DAO",
       "source": "Ekklesia",
       "requested_budget_ada": 20600000
+    },
+    {
+      "proposal_key": "ekklesia:69fdbabbe1ab5d003a0cab77",
+      "title": "Project Janus: A Roadmap to Decentralized Bridge Authorization and Generalized Cross-Chain Messaging",
+      "proposer_name": "ChainPort (by DcentraLab)",
+      "source": "Ekklesia",
+      "requested_budget_ada": 19322800
     },
     {
       "proposal_key": "ekklesia:69fc50fd89371182537b309e",
