@@ -282,13 +282,6 @@
       "requested_budget_ada": 3489366
     },
     {
-      "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
-      "title": "Clear signing of Cardano Top 5 dApps & Ledger Button integration",
-      "proposer_name": "Ledger Technologies SAS",
-      "source": "Ekklesia",
-      "requested_budget_ada": 3460800
-    },
-    {
       "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
       "title": "Dano Finance: DeFi Kernel, American Options, and Orderbook SDK",
       "proposer_name": "Dano Finance",
@@ -307,7 +300,7 @@
       "title": "MLabs - Cardano Tx Library: JavaScript/TypeScript Interface, Koios Backend, Hard Fork Maintenance",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 3169463
+      "requested_budget_ada": 3226648
     },
     {
       "proposal_key": "ekklesia:69fd1b97e1ab5d003a0cab6f",
@@ -318,7 +311,7 @@
     },
     {
       "proposal_key": "ekklesia:69fb674589371182537b309c",
-      "title": "DeFi Rails & Deployment Program",
+      "title": "DeFi Rails & Deployment Pilot Program",
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2950000
@@ -538,7 +531,7 @@
       "title": "Catalyze Africa: Building Scalable Projects from CATS 2026",
       "proposer_name": "Wada Global",
       "source": "Ekklesia",
-      "requested_budget_ada": 989901
+      "requested_budget_ada": 982433
     },
     {
       "proposal_key": "ekklesia:69ef91a1985067f4ae957a56",
@@ -574,6 +567,13 @@
       "proposer_name": "David Tacuri",
       "source": "Ekklesia",
       "requested_budget_ada": 653947
+    },
+    {
+      "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
+      "title": "DeFi Ecosystem Connectivity via Ledger Wallet with Clear Signing",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 624180
     },
     {
       "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
@@ -650,7 +650,7 @@
       "title": "Full Integration of CIP-113 with Clear Signing across Ledger Products",
       "proposer_name": "Ledger Technologies SAS",
       "source": "Ekklesia",
-      "requested_budget_ada": 92700
+      "requested_budget_ada": 231750
     }
   ]
 }
