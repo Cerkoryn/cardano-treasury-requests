@@ -192,7 +192,7 @@
     },
     {
       "proposal_key": "ekklesia:69fdc4a5b05ff80adc7d5c62",
-      "title": "Cardano Activation Program (CAP)",
+      "title": "Cardano Startup Mainnet Runway (CSMR)",
       "proposer_name": "NMA Venture Capital GmbH",
       "source": "Ekklesia",
       "requested_budget_ada": 6200600
@@ -332,7 +332,7 @@
     },
     {
       "proposal_key": "ekklesia:69fda8b1e1ab5d003a0cab75",
-      "title": "DeFi US App-Layer and Capital Execution Program",
+      "title": "DeFi US App-Layer and Demand Activation and Capital Execution Pilot Program",
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2500000
