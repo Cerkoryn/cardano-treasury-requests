@@ -51,6 +51,13 @@
       "requested_budget_ada": 25400000
     },
     {
+      "proposal_key": "onchain:gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz",
+      "title": "Cardano Critical Integrations V2",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 23000000
+    },
+    {
       "proposal_key": "ekklesia:69e21a177a2045bdd2281d1a",
       "title": "The Marketing Powered Demand Engine for Cardano",
       "proposer_name": "Serviceplan Group",
@@ -143,7 +150,7 @@
     },
     {
       "proposal_key": "ekklesia:69f8328b93fdcc8059d4cc20",
-      "title": "Cardano 2030: A Techstars Strategy for Global Ecosystem Adoption & Utility.",
+      "title": "Support Cardano 2030: A Techstars Strategy for Global Ecosystem Adoption & Utility.",
       "proposer_name": "Techstars",
       "source": "Ekklesia",
       "requested_budget_ada": 9373803
@@ -244,7 +251,7 @@
       "title": "MLabs: Post-quantum signature verification support",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 4005516
+      "requested_budget_ada": 4028407
     },
     {
       "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
@@ -284,7 +291,7 @@
     {
       "proposal_key": "ekklesia:69fdc9b261c4f060e2fef6c9",
       "title": "Dano Finance: DeFi Kernel, American Options, and Orderbook SDK",
-      "proposer_name": "Dano Finance",
+      "proposer_name": "Mai Thanh Binh",
       "source": "Ekklesia",
       "requested_budget_ada": 3399000
     },
@@ -321,7 +328,7 @@
       "title": "MLabs - TrueInventory: An accessible blockchain inventory for videogame developers",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 2850783
+      "requested_budget_ada": 2922885
     },
     {
       "proposal_key": "ekklesia:69fdb7108a0de51b89857e22",
@@ -417,9 +424,9 @@
     {
       "proposal_key": "ekklesia:69fb2be989371182537b3099",
       "title": "MLabs - Covenant 2: Cross-Language Support and Developer Experience",
-      "proposer_name": "MLabsLTD",
+      "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 1461441
+      "requested_budget_ada": 1484333
     },
     {
       "proposal_key": "ekklesia:69fd7ecef9ebc26d057f51da",
@@ -429,6 +436,13 @@
       "requested_budget_ada": 1441996
     },
     {
+      "proposal_key": "ekklesia:69fb2e7485ddd26899aaf1fe",
+      "title": "MLabs: Better arrays for everyone",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1401361
+    },
+    {
       "proposal_key": "ekklesia:69fa093992f043aa2df1a283",
       "title": "Ecosera: The End-to-End Clinical Research Ecosystem — From Trial Funding to Drug Approval on Cardano",
       "proposer_name": "AxellaCoin",
@@ -436,11 +450,11 @@
       "requested_budget_ada": 1390508
     },
     {
-      "proposal_key": "ekklesia:69fb2e7485ddd26899aaf1fe",
-      "title": "MLabs: Better arrays for everyone",
+      "proposal_key": "ekklesia:69fb450f8a0de51b89857e10",
+      "title": "MLabs: Encrypted Programmable Tokens with TFHE",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 1378470
+      "requested_budget_ada": 1366456
     },
     {
       "proposal_key": "ekklesia:69fc8c2285ddd26899aaf20d",
@@ -448,13 +462,6 @@
       "proposer_name": "Voltaire Swarm OÜ",
       "source": "Ekklesia",
       "requested_budget_ada": 1350330
-    },
-    {
-      "proposal_key": "ekklesia:69fb450f8a0de51b89857e10",
-      "title": "MLabs: Encrypted Programmable Tokens with TFHE",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1343564
     },
     {
       "proposal_key": "ekklesia:69ecf1ea93fdcc8059d4cc0a",
@@ -499,6 +506,20 @@
       "requested_budget_ada": 1193000
     },
     {
+      "proposal_key": "ekklesia:69fcab8de1ab5d003a0cab66",
+      "title": "MLabs - Grumplestiltskin 2: Pasta Curve Builtins and Kimchi PLookup Proof-of-Concept",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1167325
+    },
+    {
+      "proposal_key": "ekklesia:69fae404f9ebc26d057f51bf",
+      "title": "MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1162746
+    },
+    {
       "proposal_key": "ekklesia:69fd0d5ef9ebc26d057f51d3",
       "title": "Daedalus Wallet Maintenance and Improvements 2026–2027",
       "proposer_name": "Se7en Labs",
@@ -506,22 +527,8 @@
       "requested_budget_ada": 1153600
     },
     {
-      "proposal_key": "ekklesia:69fcab8de1ab5d003a0cab66",
-      "title": "MLabs - Grumplestiltskin 2: Pasta Curve Builtins and Kimchi PLookup Proof-of-Concept",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1144433
-    },
-    {
       "proposal_key": "ekklesia:69fb669185ddd26899aaf203",
       "title": "MLabs - Cardano.nix: 2026 Maintenance, Operator Tooling, and Dijkstra Readiness",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1144433
-    },
-    {
-      "proposal_key": "ekklesia:69fae404f9ebc26d057f51bf",
-      "title": "MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 1144433
@@ -583,13 +590,6 @@
       "requested_budget_ada": 600000
     },
     {
-      "proposal_key": "ekklesia:69fc770b8a0de51b89857e17",
-      "title": "High-performance Rust Ogmios Client",
-      "proposer_name": "WingRiders Ltd.",
-      "source": "Ekklesia",
-      "requested_budget_ada": 545694
-    },
-    {
       "proposal_key": "ekklesia:69f9dabb92f043aa2df1a282",
       "title": "Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
       "proposer_name": "TxPipe",
@@ -637,6 +637,13 @@
       "proposer_name": "No.Witness Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 412000
+    },
+    {
+      "proposal_key": "ekklesia:69fc770b8a0de51b89857e17",
+      "title": "High-performance Rust Ogmios Client",
+      "proposer_name": "WingRiders Ltd.",
+      "source": "Ekklesia",
+      "requested_budget_ada": 343814
     },
     {
       "proposal_key": "ekklesia:69fbc8dd85ddd26899aaf207",
