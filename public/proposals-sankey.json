@@ -83,7 +83,7 @@
       "title": "Project Janus: A Roadmap to Decentralized Bridge Authorization and Generalized Cross-Chain Messaging",
       "proposer_name": "ChainPort (by DcentraLab)",
       "source": "Ekklesia",
-      "requested_budget_ada": 19322800
+      "requested_budget_ada": 15820800
     },
     {
       "proposal_key": "ekklesia:69fc50fd89371182537b309e",
@@ -147,6 +147,13 @@
       "proposer_name": "Amaru",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 10142000
+    },
+    {
+      "proposal_key": "onchain:gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux",
+      "title": "5am.earth Trust Layer Targeting Vision 2030 KPIs",
+      "proposer_name": "Yoram Ben-Zvi (Elk GMBH), Shay Gammer (HashPoint Consulting Sarl)",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 10000000
     },
     {
       "proposal_key": "ekklesia:69f8328b93fdcc8059d4cc20",
@@ -247,13 +254,6 @@
       "requested_budget_ada": 4372865
     },
     {
-      "proposal_key": "ekklesia:69fb5faab05ff80adc7d5c46",
-      "title": "MLabs: Post-quantum signature verification support",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 4028407
-    },
-    {
       "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
       "title": "Indigo Innovation Proposal: V2030RS, Tokenized RWA, BTC-Fi & Privacy",
       "proposer_name": "Indigo Foundation",
@@ -272,7 +272,7 @@
       "title": "Mithril Protocol",
       "proposer_name": "Teragone Factory",
       "source": "Ekklesia",
-      "requested_budget_ada": 3739559
+      "requested_budget_ada": 3810423
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
@@ -280,6 +280,13 @@
       "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 3601926
+    },
+    {
+      "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
+      "title": "DeFi Ecosystem Connectivity via Ledger Wallet with Clear Signing",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 3599850
     },
     {
       "proposal_key": "ekklesia:69fd0b20b05ff80adc7d5c55",
@@ -301,13 +308,6 @@
       "proposer_name": "EMURGO",
       "source": "Live On-Chain",
       "requested_budget_ada": 3303750
-    },
-    {
-      "proposal_key": "ekklesia:69fc8e0989371182537b30a3",
-      "title": "MLabs - Cardano Tx Library: JavaScript/TypeScript Interface, Koios Backend, Hard Fork Maintenance",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 3226648
     },
     {
       "proposal_key": "ekklesia:69fd1b97e1ab5d003a0cab6f",
@@ -352,18 +352,18 @@
       "requested_budget_ada": 2400000
     },
     {
+      "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
+      "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 2218620
+    },
+    {
       "proposal_key": "ekklesia:69fb759cb05ff80adc7d5c47",
       "title": "Libertum: Institution-Grade Participation Infrastructure for Cardano Real-World Assets",
       "proposer_name": "Libertum",
       "source": "Ekklesia",
       "requested_budget_ada": 2193900
-    },
-    {
-      "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
-      "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
-      "proposer_name": "Ledger Technologies SAS",
-      "source": "Ekklesia",
-      "requested_budget_ada": 2060000
     },
     {
       "proposal_key": "ekklesia:69fd539b85ddd26899aaf21c",
@@ -401,16 +401,16 @@
       "requested_budget_ada": 1680000
     },
     {
-      "proposal_key": "ekklesia:69fac66e89371182537b3096",
-      "title": "Cardano Content Creator Consortium (C4): Ecosystem Video Content Production, Marketing & Education",
-      "proposer_name": "Cardano Content Creator Consortium (C4)",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1524400
-    },
-    {
       "proposal_key": "ekklesia:69f0ed3a7822b26563397afa",
       "title": "Hub-Network Liquidity: A Protocol for Revenue-based Finance at Network Scale",
       "proposer_name": "Prisma",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1596500
+    },
+    {
+      "proposal_key": "ekklesia:69fac66e89371182537b3096",
+      "title": "Cardano Content Creator Consortium (C4): Ecosystem Video Content Production, Marketing & Education",
+      "proposer_name": "Cardano Content Creator Consortium (C4)",
       "source": "Ekklesia",
       "requested_budget_ada": 1524400
     },
@@ -471,6 +471,13 @@
       "requested_budget_ada": 1339000
     },
     {
+      "proposal_key": "ekklesia:69fc8e0989371182537b30a3",
+      "title": "MLabs - Cardano Tx Library: JavaScript/TypeScript Interface, Koios Backend, Hard Fork Maintenance",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1337763
+    },
+    {
       "proposal_key": "ekklesia:69f08631d699758cde5d4a68",
       "title": "Integration of Cardano into the Houdiniswap Aggregator",
       "proposer_name": "Houdiniswap",
@@ -506,6 +513,13 @@
       "requested_budget_ada": 1193000
     },
     {
+      "proposal_key": "ekklesia:69fb669185ddd26899aaf203",
+      "title": "MLabs - Cardano.nix: 2026 Maintenance, Operator Tooling, and Dijkstra Readiness",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 1171903
+    },
+    {
       "proposal_key": "ekklesia:69fcab8de1ab5d003a0cab66",
       "title": "MLabs - Grumplestiltskin 2: Pasta Curve Builtins and Kimchi PLookup Proof-of-Concept",
       "proposer_name": "MLabs LTD",
@@ -525,13 +539,6 @@
       "proposer_name": "Se7en Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 1153600
-    },
-    {
-      "proposal_key": "ekklesia:69fb669185ddd26899aaf203",
-      "title": "MLabs - Cardano.nix: 2026 Maintenance, Operator Tooling, and Dijkstra Readiness",
-      "proposer_name": "MLabs LTD",
-      "source": "Ekklesia",
-      "requested_budget_ada": 1144433
     },
     {
       "proposal_key": "ekklesia:69ef7bedd699758cde5d4a66",
@@ -562,11 +569,18 @@
       "requested_budget_ada": 800000
     },
     {
+      "proposal_key": "ekklesia:69fb5faab05ff80adc7d5c46",
+      "title": "MLabs: Post-quantum signature verification support",
+      "proposer_name": "MLabs LTD",
+      "source": "Ekklesia",
+      "requested_budget_ada": 758762
+    },
+    {
       "proposal_key": "ekklesia:69f8b983e8a58900f4a05a06",
       "title": "MLabs: Open-Sourcing FeesaSwap as Live Fee Abstraction Infrastructure on Cardano",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
-      "requested_budget_ada": 686660
+      "requested_budget_ada": 734730
     },
     {
       "proposal_key": "ekklesia:69fc12c1f9ebc26d057f51c8",
@@ -576,18 +590,18 @@
       "requested_budget_ada": 653947
     },
     {
-      "proposal_key": "ekklesia:69fd6ef7f9ebc26d057f51d9",
-      "title": "DeFi Ecosystem Connectivity via Ledger Wallet with Clear Signing",
-      "proposer_name": "Ledger Technologies SAS",
-      "source": "Ekklesia",
-      "requested_budget_ada": 624180
-    },
-    {
       "proposal_key": "ekklesia:69f22067d699758cde5d4a70",
       "title": "Cardano Budget Committee: Budget Process Improvement and Treasury Transparency (2026–2027)",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 600000
+    },
+    {
+      "proposal_key": "ekklesia:69fd6b34f9ebc26d057f51d8",
+      "title": "Full Integration of CIP-113 with Clear Signing across Ledger Products",
+      "proposer_name": "Ledger Technologies SAS",
+      "source": "Ekklesia",
+      "requested_budget_ada": 556200
     },
     {
       "proposal_key": "ekklesia:69f9dabb92f043aa2df1a282",
@@ -651,13 +665,6 @@
       "proposer_name": "2 Lovelaces & Lido Nation",
       "source": "Ekklesia",
       "requested_budget_ada": 339900
-    },
-    {
-      "proposal_key": "ekklesia:69fd6b34f9ebc26d057f51d8",
-      "title": "Full Integration of CIP-113 with Clear Signing across Ledger Products",
-      "proposer_name": "Ledger Technologies SAS",
-      "source": "Ekklesia",
-      "requested_budget_ada": 231750
     }
   ]
 }
