@@ -12,7 +12,7 @@
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qx4njfhm",
       "title": "IO & Ensurable Systems: Cardano Maintenance Initiative",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 62134630
     },
     {
@@ -40,7 +40,7 @@
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qyxkn2yk",
       "title": "IO: Consensus Initiative",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 27714342
     },
     {
@@ -103,22 +103,15 @@
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qz6es0cp",
       "title": "IO: Cardano Upgrades",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 13103039
     },
     {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3q2yd5rxu",
       "title": "IO: Cardano High Assurance Technical Collaboration",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 13078578
-    },
-    {
-      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qsuae57l",
-      "title": "Pogun: Capital Without Compromise",
-      "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 12290000
     },
     {
       "proposal_key": "onchain:gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv",
@@ -131,15 +124,8 @@
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qvczhx6t",
       "title": "IO & VacuumLabs: Enhancing Plutus - Performance, Correctness, and Usability",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 11877575
-    },
-    {
-      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qghg4q43",
-      "title": "IO & Midgard Labs: L2 Scalability Initiative",
-      "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 10425871
     },
     {
       "proposal_key": "onchain:gov_action19uhuy5uame2s60yrh6n8cyds8ps5q7tkh05dqlzmpcfy429p9w4qq5ll3g0",
@@ -175,13 +161,6 @@
       "proposer_name": "Lantr Engineering",
       "source": "Live On-Chain",
       "requested_budget_ada": 8503000
-    },
-    {
-      "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qwt8k9fx",
-      "title": "Blockfrost: Maintenance and Next Generation Indexing",
-      "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 7920000
     },
     {
       "proposal_key": "ekklesia:69e90478d699758cde5d4a5e",
@@ -278,7 +257,7 @@
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv",
       "title": "IO: Developer Experience Initiative",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 3601926
     },
     {
