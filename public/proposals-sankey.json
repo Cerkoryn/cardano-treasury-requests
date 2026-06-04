@@ -23,13 +23,6 @@
       "requested_budget_ada": 50000000
     },
     {
-      "proposal_key": "onchain:gov_action14u26vcn3wmcnhc5pqrt6494ypugr7c7f3e2ns60r32cntl6zjtxsqqgeu8p",
-      "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028",
-      "proposer_name": "Intersect",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 39787316
-    },
-    {
       "proposal_key": "onchain:gov_action1ttgs45ulfxs0jwkfrecystc3flduhszmyzk8wnd7yw5za77tsg9qq4afmus",
       "title": "Cardano Vision 2026: Human Centred, Scalable, Post Quantum Secure - IO Research",
       "proposer_name": "Input Output Global",
@@ -77,6 +70,13 @@
       "proposer_name": "Cardano Builder DAO",
       "source": "Ekklesia",
       "requested_budget_ada": 20600000
+    },
+    {
+      "proposal_key": "onchain:gov_action1zljrlljt9cxlz7ra2nep43nxg0r54wcnrgexyuhuam9ah0ws607qq2vcg4x",
+      "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2027",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 18263496
     },
     {
       "proposal_key": "ekklesia:69fdbabbe1ab5d003a0cab77",
@@ -324,13 +324,6 @@
       "requested_budget_ada": 2500000
     },
     {
-      "proposal_key": "onchain:gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d",
-      "title": "[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels",
-      "proposer_name": "",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 2400000
-    },
-    {
       "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
       "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
       "proposer_name": "Ledger Technologies SAS",
@@ -357,13 +350,6 @@
       "proposer_name": "Simon Thompson",
       "source": "Ekklesia",
       "requested_budget_ada": 1802500
-    },
-    {
-      "proposal_key": "onchain:gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw",
-      "title": "Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade",
-      "proposer_name": "EMURGO",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 1768167
     },
     {
       "proposal_key": "ekklesia:69fc5a8785ddd26899aaf208",
