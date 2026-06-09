@@ -26,7 +26,7 @@
       "proposal_key": "onchain:gov_action1ttgs45ulfxs0jwkfrecystc3flduhszmyzk8wnd7yw5za77tsg9qq4afmus",
       "title": "Cardano Vision 2026: Human Centred, Scalable, Post Quantum Secure - IO Research",
       "proposer_name": "Input Output Global",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 32916000
     },
     {
@@ -198,18 +198,18 @@
       "requested_budget_ada": 5150000
     },
     {
+      "proposal_key": "onchain:gov_action1fah9m7dxu99af8jqdc4mkrgs3va790nyh9tfhycq2wsvrm47p4rsqtcm6ry",
+      "title": "IO: Hydra",
+      "proposer_name": "Input Output Global",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 5100781
+    },
+    {
       "proposal_key": "ekklesia:69ea4790d73bae0eb2a99522",
       "title": "Paid Open Source Model - Continued",
       "proposer_name": "Intersect",
       "source": "Ekklesia",
       "requested_budget_ada": 4601000
-    },
-    {
-      "proposal_key": "onchain:gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c",
-      "title": "The first node in the browser; a Cardano USP",
-      "proposer_name": "HLabs",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 4600000
     },
     {
       "proposal_key": "onchain:gov_action1ggr2uz7prwn5l84cdn2krwngfez0p7wluy4u3u3ez9pz5ls2whesqnsjly8",
