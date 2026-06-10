@@ -630,6 +630,13 @@
       "proposer_name": "2 Lovelaces & Lido Nation",
       "source": "Ekklesia",
       "requested_budget_ada": 339900
+    },
+    {
+      "proposal_key": "onchain:gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq",
+      "title": "Reimburse Ikigai Info Governance Action Deposit.",
+      "proposer_name": "",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 103000
     }
   ]
 }
