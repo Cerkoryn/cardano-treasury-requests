@@ -310,6 +310,13 @@
       "requested_budget_ada": 2500000
     },
     {
+      "proposal_key": "onchain:gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse",
+      "title": "Eternl: Path to Sustainability - v2",
+      "proposer_name": "Eternl",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 2350000
+    },
+    {
       "proposal_key": "ekklesia:69fd6321f9ebc26d057f51d7",
       "title": "Cardano app on Ledger maintained by Ledger Technologies SAS",
       "proposer_name": "Ledger Technologies SAS",
