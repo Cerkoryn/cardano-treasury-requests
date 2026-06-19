@@ -47,7 +47,7 @@
       "proposal_key": "onchain:gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz",
       "title": "Cardano Critical Integrations V2",
       "proposer_name": "Intersect",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 23000000
     },
     {
@@ -140,6 +140,13 @@
       "proposer_name": "Techstars",
       "source": "Ekklesia",
       "requested_budget_ada": 9373803
+    },
+    {
+      "proposal_key": "onchain:gov_action1suskjc6c4nw58c6wtmv77xe79gwj47wp4gvh9cqhhxujwxmam3cqqkz5nwj",
+      "title": "Strike Finance Liquidity Deployment",
+      "proposer_name": "Eternl",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 9000000
     },
     {
       "proposal_key": "ekklesia:69f293527822b26563397afd",
@@ -350,13 +357,6 @@
       "proposer_name": "TxPipe",
       "source": "Ekklesia",
       "requested_budget_ada": 1684050
-    },
-    {
-      "proposal_key": "onchain:gov_action1ngpqafax5rvp8lcgey4asvqtycrh4e56fwp8cn2r9trx2ysryhtsqdm3w3z",
-      "title": "Eternl: Path to Sustainability (2026-2027)",
-      "proposer_name": "Eternl",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 1680000
     },
     {
       "proposal_key": "ekklesia:69f0ed3a7822b26563397afa",
