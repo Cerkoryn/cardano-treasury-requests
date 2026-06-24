@@ -44,6 +44,13 @@
       "requested_budget_ada": 25400000
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sgx6wlxf",
+      "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 25400000
+    },
+    {
       "proposal_key": "onchain:gov_action1cp0w6zwgwpj98jtu3r2q838lgwmhs6j49l58zx4q05lx220lmzaqqztnljz",
       "title": "Cardano Critical Integrations V2",
       "proposer_name": "Intersect",
@@ -128,10 +135,17 @@
       "requested_budget_ada": 10142000
     },
     {
+      "proposal_key": "onchain:gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2",
+      "title": "Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol",
+      "proposer_name": "",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 10000000
+    },
+    {
       "proposal_key": "onchain:gov_action142ndnn9hycuuwld5ddemash2l709ln06qjgfeudq77z45nf3fpdqqn7pwux",
       "title": "5am.earth Trust Layer Targeting Vision 2030 KPIs",
       "proposer_name": "Yoram Ben-Zvi (Elk GMBH), Shay Gammer (HashPoint Consulting Sarl)",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 10000000
     },
     {
@@ -233,10 +247,24 @@
       "requested_budget_ada": 3961538
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sqcw2nc5",
+      "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 3961538
+    },
+    {
       "proposal_key": "ekklesia:69f3529e1e63d3708e0dadb6",
       "title": "Mithril Protocol",
       "proposer_name": "Teragone Factory",
       "source": "Ekklesia",
+      "requested_budget_ada": 3810423
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s24l0u4y",
+      "title": "Withdraw 3,810,423 ada for Mithril Protocol",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
       "requested_budget_ada": 3810423
     },
     {
@@ -359,6 +387,13 @@
       "requested_budget_ada": 1684050
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sj72rg72",
+      "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 1684050
+    },
+    {
       "proposal_key": "ekklesia:69f0ed3a7822b26563397afa",
       "title": "Hub-Network Liquidity: A Protocol for Revenue-based Finance at Network Scale",
       "proposer_name": "Prisma",
@@ -450,6 +485,13 @@
       "requested_budget_ada": 1310960
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8syhyg4hw",
+      "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 1310960
+    },
+    {
       "proposal_key": "ekklesia:69fb54818a0de51b89857e11",
       "title": "zkFold Open Source Cardano Infrastructure 2026",
       "proposer_name": "zkFold",
@@ -471,6 +513,13 @@
       "requested_budget_ada": 1193000
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sxypfkyr",
+      "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 1193000
+    },
+    {
       "proposal_key": "ekklesia:69fb669185ddd26899aaf203",
       "title": "MLabs - Cardano.nix: 2026 Maintenance, Operator Tooling, and Dijkstra Readiness",
       "proposer_name": "MLabs LTD",
@@ -489,6 +538,13 @@
       "title": "MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply",
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
+      "requested_budget_ada": 1162746
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn",
+      "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
       "requested_budget_ada": 1162746
     },
     {
@@ -587,6 +643,34 @@
       "title": "Pallas by TxPipe: Maintaining Cardano's Core Rust Libraries, Year 2",
       "proposer_name": "TxPipe",
       "source": "Ekklesia",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
+      "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8",
+      "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667",
+      "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
+      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
       "requested_budget_ada": 540750
     },
     {
