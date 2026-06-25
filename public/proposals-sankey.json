@@ -79,6 +79,13 @@
       "requested_budget_ada": 20600000
     },
     {
+      "proposal_key": "onchain:gov_action1fdatlfcdnzzcw5x9pnt9r42v992nqw65zze57s8tyk0jll78eyusqccn9gc",
+      "title": "Cardano Builder DAO",
+      "proposer_name": "Cardano Builder DAO",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 20000000
+    },
+    {
       "proposal_key": "onchain:gov_action1zljrlljt9cxlz7ra2nep43nxg0r54wcnrgexyuhuam9ah0ws607qq2vcg4x",
       "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2027",
       "proposer_name": "Intersect",
@@ -210,6 +217,13 @@
       "proposer_name": "Input Output Global",
       "source": "Live On-Chain",
       "requested_budget_ada": 5100781
+    },
+    {
+      "proposal_key": "onchain:gov_action1xk6yrz0tg72a2a63ytd99gapz46nlqlavckarleqt6nr8lyekd8qqp0ga3d",
+      "title": "Withdraw 4,969,231 ada for Cardano Enterprise Adoption: Ticketing Platform",
+      "proposer_name": "Anvil Development Agency, Inc., Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 4969231
     },
     {
       "proposal_key": "ekklesia:69ea4790d73bae0eb2a99522",
@@ -378,6 +392,13 @@
       "proposer_name": "Simon Thompson",
       "source": "Ekklesia",
       "requested_budget_ada": 1802500
+    },
+    {
+      "proposal_key": "onchain:gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j",
+      "title": "Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027",
+      "proposer_name": "Samuel Leathers (Se7en Labs)",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 1785333
     },
     {
       "proposal_key": "ekklesia:69fc5a8785ddd26899aaf208",
@@ -646,13 +667,6 @@
       "requested_budget_ada": 540750
     },
     {
-      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
-      "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
-      "proposer_name": "Intersect",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 540750
-    },
-    {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8ssd0ztd8",
       "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li...",
       "proposer_name": "Intersect",
@@ -669,6 +683,13 @@
     {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
       "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
+      "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
       "proposer_name": "Intersect",
       "source": "Live On-Chain",
       "requested_budget_ada": 540750
