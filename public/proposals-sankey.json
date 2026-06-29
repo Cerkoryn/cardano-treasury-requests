@@ -89,7 +89,7 @@
       "proposal_key": "onchain:gov_action1zljrlljt9cxlz7ra2nep43nxg0r54wcnrgexyuhuam9ah0ws607qq2vcg4x",
       "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2027",
       "proposer_name": "Intersect",
-      "source": "Live On-Chain",
+      "source": "Ratified On-Chain",
       "requested_budget_ada": 18263496
     },
     {
@@ -343,13 +343,6 @@
       "proposer_name": "MLabs LTD",
       "source": "Ekklesia",
       "requested_budget_ada": 2922885
-    },
-    {
-      "proposal_key": "onchain:gov_action18a9sytyez02jl8ee4ryz5xu7heg587m5tu6nr7fkd3ex30umnnjqq27e7ey",
-      "title": "Rare Evo and Dev Gov Day 2026: Cardano Title Sponsorship",
-      "proposer_name": "Intersect",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 2750000
     },
     {
       "proposal_key": "ekklesia:69fdb7108a0de51b89857e22",
@@ -674,13 +667,6 @@
       "requested_budget_ada": 540750
     },
     {
-      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
-      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
-      "proposer_name": "Intersect",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 540750
-    },
-    {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
       "proposer_name": "Intersect",
@@ -697,6 +683,13 @@
     {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667",
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
+      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
       "proposer_name": "Intersect",
       "source": "Live On-Chain",
       "requested_budget_ada": 540750
