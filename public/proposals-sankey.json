@@ -688,6 +688,13 @@
       "requested_budget_ada": 540750
     },
     {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
+      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
+      "proposer_name": "Intersect",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
       "proposer_name": "Intersect",
@@ -704,13 +711,6 @@
     {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667",
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
-      "proposer_name": "Intersect",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 540750
-    },
-    {
-      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
-      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
       "proposer_name": "Intersect",
       "source": "Live On-Chain",
       "requested_budget_ada": 540750
