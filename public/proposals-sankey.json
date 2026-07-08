@@ -261,6 +261,13 @@
       "requested_budget_ada": 4372865
     },
     {
+      "proposal_key": "onchain:gov_action19apfhh339syqd0gkrxw6zr6pghdfspckr6vagjrpwnr0hx53lxpsq637y3t",
+      "title": "Revised Cardano dOSPO and OMF Program Proposal",
+      "proposer_name": "Christian Taylor, open source cowboy",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 4094000
+    },
+    {
       "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
       "title": "Indigo Innovation Proposal: V2030RS, Tokenized RWA, BTC-Fi & Privacy",
       "proposer_name": "Indigo Foundation",
