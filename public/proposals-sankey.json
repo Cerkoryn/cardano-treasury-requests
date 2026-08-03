@@ -128,13 +128,6 @@
       "requested_budget_ada": 13078578
     },
     {
-      "proposal_key": "onchain:gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt",
-      "title": "Bifrost: Unlocking Bitcoin DeFi on Cardano — Road to Mainnet (Phase 1 of 2)",
-      "proposer_name": "Lantr Engineering, FluidTokens",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 12332031
-    },
-    {
       "proposal_key": "onchain:gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qvczhx6t",
       "title": "IO & VacuumLabs: Enhancing Plutus - Performance, Correctness, and Usability",
       "proposer_name": "Input Output Global",
@@ -296,13 +289,6 @@
       "requested_budget_ada": 3399000
     },
     {
-      "proposal_key": "onchain:gov_action1cpnqmlgpkz3dnwnm4spqzsmsp93y9mr4vqcm2ltcpqyyf7a7nszsq4h586r",
-      "title": "Global Order Book connect Cardano DeFi to increase transaction",
-      "proposer_name": "",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 3333000
-    },
-    {
       "proposal_key": "onchain:gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z",
       "title": "Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum' Sponsorship Proposal",
       "proposer_name": "EMURGO",
@@ -343,13 +329,6 @@
       "proposer_name": "Magenta Labs",
       "source": "Ekklesia",
       "requested_budget_ada": 2500000
-    },
-    {
-      "proposal_key": "onchain:gov_action1xg69v73lfzkwyhhuz583x6geyc2ewn3r96sxuqj3wqvrrk0yfpksqqa63yc",
-      "title": "Scalus 2026: Maintenance, Dijkstra Readiness, Interoperability & Application Runtime",
-      "proposer_name": "Lantr Engineering",
-      "source": "Live On-Chain",
-      "requested_budget_ada": 2464844
     },
     {
       "proposal_key": "onchain:gov_action1lwudrf9g66mzlrxhq62y5pvzhzzv9wgps7u04kne202udge7kknsqlgmhse",
