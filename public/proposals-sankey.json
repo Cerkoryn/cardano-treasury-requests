@@ -226,6 +226,13 @@
       "requested_budget_ada": 4372865
     },
     {
+      "proposal_key": "onchain:gov_action174lclj6wswk3km6chl755vp24ja44yy8fjput7z20795hdpuax7qq67pvcp",
+      "title": "Governance Incentives Framework 2026",
+      "proposer_name": "Seomon, Sebastian Pereira",
+      "source": "Live On-Chain",
+      "requested_budget_ada": 4207967
+    },
+    {
       "proposal_key": "ekklesia:69e63a4ed6a29288536b11fc",
       "title": "Indigo Innovation Proposal: V2030RS, Tokenized RWA, BTC-Fi & Privacy",
       "proposer_name": "Indigo Foundation",
@@ -632,13 +639,6 @@
       "requested_budget_ada": 540750
     },
     {
-      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
-      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
-      "proposer_name": "Intersect",
-      "source": "Ratified On-Chain",
-      "requested_budget_ada": 540750
-    },
-    {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8s5z9qdza",
       "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
       "proposer_name": "Intersect",
@@ -655,6 +655,13 @@
     {
       "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sw64d667",
       "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline",
+      "proposer_name": "Intersect",
+      "source": "Ratified On-Chain",
+      "requested_budget_ada": 540750
+    },
+    {
+      "proposal_key": "onchain:gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8sztttste",
+      "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",
       "proposer_name": "Intersect",
       "source": "Ratified On-Chain",
       "requested_budget_ada": 540750
